@@ -1,0 +1,35 @@
+- title: "Replex"
+  id: replex
+  active: true
+  brief: Unifying replication and indexing in distributed storage
+  opensource: https://github.com/CorfuDB/CorfuDB
+  people:
+    - amytai
+    - mfreed
+  publications:
+    - title: "Replex: A Scalable, Highly Available Multi-Index Data Store"
+      people:
+        - Amy Tai
+        - Michael Wei
+        - Michael J. Freedman
+        - Ittai Abraham
+        - Dahlia Malkhi
+      venue: USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016
+      pdf: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
+      year: 2016
+      award:
+        - Best Paper Award
+- title: Passe
+  id: passe
+  brief: "Automating Application Security for Cloud Services"
+  publications:
+    - title: Automating Isolation and Least Privilege in Web Services.
+      people:
+        - Aaron Blankenstein
+        - Michael J. Freedman
+      venue: In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014.
+      pdf: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
+      year: 2014
+  people:
+    - mfreed
+    - ablankst

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{%- assign project = site.data.projects | where: "id", page.project_id | first -%}
+<article>
+  <h1>{{ page.title | escape }}</h1>
+  {{ content }}
+  <h2>Publications</h2>
+  <ol>
+  {%- for publication in project.publications -%}
+    <li>
+      <h3>{{ publication.title }}</h3>
+      <p>{{ publication.people | array_to_sentence_string }}. {{ publication.venue }}</p>
+      {%- if publication.pdf -%}
+      <p>Paper: <a href="{{ publication.pdf }}">PDF</a></p>
+      {%- endif -%}
+    </li>
+  {% endfor %}
+  </ol>
+  <h2>People</h2>
+  <ul>
+  {%- for p in project.people -%}
+  {%- assign person = site.data.people | where: "nick", p | first -%}
+    <li><a href="{{ person.url}}">{{ person.name }}</a></li>
+  {%- endfor -%}
+  </ul>
+</article>
