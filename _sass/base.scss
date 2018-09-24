@@ -1,0 +1,37 @@
+html {
+  font-size: $text-base-size;
+}
+
+body {
+  font-family: $body-font;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+}
+
+body > header {
+  padding-left: 1em;
+  padding-right: 1em;
+
+  background: url(/assets/img/masthead.png) no-repeat scroll top;
+  background-size: $tablet auto;
+
+  h1 {
+    font-family: $masthead-font;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.9em;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: $body-font;
+    font-size: 1.3em;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
