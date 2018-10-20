@@ -102,7 +102,7 @@ body > header {
   @media screen and (min-width: $desktop) {
     grid-template-columns: auto $desktop auto;
   }
-  grid-row-gap: 3.75em;
+  grid-row-gap: 1em;
   grid-template-areas:
     ". masthead ."
     ". tagline  .";
@@ -110,6 +110,7 @@ body > header {
   background: url(/assets/img/masthead.png) no-repeat scroll top;
   background-size: auto 100%;
   padding-top: 3.75em;
+  padding-bottom: 3.75em;
 
   h1 {
     grid-area: masthead;
@@ -153,11 +154,12 @@ nav {
         color: #141412;
         text-decoration: none;
         font-size: 1em;
-        padding: 1em 1.45em 1em 0;
+        padding: 1em 1.45em;
 
         &:hover, &:hover {
           background-color: #220e10;
           color: white;
+          text-decoration: none;
         }
       }
     }
