@@ -3,7 +3,7 @@
     type: leader
     active: true
     url: http://www.cs.princeton.edu/~mfreed/
-    picture: http://sns.cs.princeton.edu/wp-content/uploads/2011/06/Mike-Switz-Alps-e1307212234323.jpg
+    picture: /assets/img/people/mfreed.jpg
     bio: >-
             is a Professor in Princeton’s Computer Science Department, where he
             has been since 2007.  Prior to that, he received a Ph.D. from NYU’s
@@ -18,7 +18,7 @@
     type: leader
     active: true
     url: http://www.cs.princeton.edu/~wlloyd/
-    picture: http://sns.cs.princeton.edu/wp-content/uploads/2018/02/wyatts_head.png
+    picture: /assets/img/people/wlloyd.png
     bio: >-
            is an Assistant Professor of Computer Science at Princeton
            University. His research interests include the distributed systems
@@ -32,7 +32,7 @@
     nick: ablankst
     type: phd
     url: http://www.princeton.edu/~ablankst/
-    picture: http://sns.cs.princeton.edu/wp-content/uploads/2009/03/BLANKS-mug.jpg
+    picture: /assets/img/people/ablankst.jpg
     bio: >-
             is a sixth-year Ph.D. student. Previously, he
             received an M.Eng. and B.S. degree from MIT, where he worked with
@@ -46,7 +46,7 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~amytai/
-    picture: http://sns.cs.princeton.edu/wp-content/uploads/2013/08/amytaisns.jpg
+    picture: /assets/img/people/amytai.jpg
     bio: >-
             is a fourth-year PhD student. She graduated from Harvard
             University in 2013 with a joint degree in computer science and
