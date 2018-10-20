@@ -2,21 +2,27 @@
 layout: default
 ---
 {%- assign project = site.data.projects | where: "id", page.project_id | first -%}
-<article>
+<article class="project">
   <h1>{{ page.title | escape }}</h1>
   {{ content }}
   <h2>Publications</h2>
-  <ol>
+  <ul class="publications">
   {%- for publication in project.publications -%}
     <li>
       <h3>{{ publication.title }}</h3>
-      <p>{{ publication.people | array_to_sentence_string }}. {{ publication.venue }}</p>
-      {%- if publication.pdf -%}
-      <p>Paper: <a href="{{ publication.pdf }}">PDF</a></p>
+      <p class="authors">{{ publication.people | array_to_sentence_string }}.</p>
+      <p class="venue">{{ publication.venue }}</p>
+      <p>
+      {%- if publication.paper -%}
+        [<a href="{{ publication.presentation }}">paper</a>]
       {%- endif -%}
+      {%- if publication.presentation -%}
+        [<a href="{{ publication.presentation }}">presentation</a>]
+      {%- endif -%}
+      </p>
     </li>
   {% endfor %}
-  </ol>
+  </ul>
   <h2>People</h2>
   <ul>
   {%- for p in project.people -%}

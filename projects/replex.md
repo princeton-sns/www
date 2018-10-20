@@ -11,5 +11,5 @@ by replicating data to replexes, as opposed to exact data replicas. In doing
 so, distributed databases can greatly reduce the overheads of supporting
 secondary indexes, which are crucial to supporting rich functionality.
 
-An [open source implementation](https://github.com/CorfuDB/CorfuDB) of Replex can be found integrated into the Corfu
+An open source [implementation](https://github.com/CorfuDB/CorfuDB) of Replex can be found integrated into the Corfu
 database.

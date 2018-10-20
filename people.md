@@ -17,11 +17,11 @@ research opportunities.
 {%- assign phds = site.data.people | where: "type", "phd" -%}
 
 {% for person in leaders %}
-![{{person.name}}]({{person.picture}}) [{{person.name}}]({{person.url}}) {{person.bio}}
+![{{person.name}}]({{person.picture}}){:class="alignleft"} [{{person.name}}]({{person.url}}) {{person.bio}}
 {% endfor %}
 
 ## PhD Students
 
 {% for person in phds %}
-![{{person.name}}]({{person.picture}}) [{{person.name}}]({{person.url}}) {{person.bio}}
+![{{person.name}}]({{person.picture}}){:class="alignleft"} [{{person.name}}]({{person.url}}) {{person.bio}}
 {% endfor %}

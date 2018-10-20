@@ -23,9 +23,18 @@ permalink: /publications
 ## {{year}}
 {% endif %}
 
-  1. {{ publication.title }}  
+{:.publications}
+  1. ### {{ publication.title }}
+
      {{ publication.people | array_to_sentence_string }}  
+
      {{ publication.venue }}  
-     [Paper]({{ publication.pdf }})
+
+     {% if publication.paper %}
+     \[[paper]({{ publication.paper }})\]
+     {%- endif -%}
+     {%- if publication.presentation -%}
+     \[[presentation]({{ publication.presentation }})\]
+     {% endif %}
 
 {% endfor %}

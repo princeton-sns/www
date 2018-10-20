@@ -5,33 +5,206 @@ html {
 body {
   font-family: $body-font;
   line-height: 1.5;
+  display: grid;
+  @media screen and (max-width: $desktop) {
+    grid-template-columns: auto ($tablet - 160px) auto;
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      ". content ."
+      ". people ."
+      "footer footer footer";
+  }
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: auto ($tablet - 160px) 240px auto;
+    grid-column-gap: 3em;
+    grid-template-areas:
+      "header header header header"
+      "nav nav nav nav"
+      ". content people ."
+      "footer footer footer footer";
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
+  margin: 0;
+}
+
+a {
+  color: #bc360a;
+  text-decoration: none;
+  &:hover, &:active, &:focus {
+    color: #ea9629;
+    text-decoration: underline;
+  }
+}
+
+
+body > aside {
+  grid-area: people;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+
+  > div {
+    background-color: #f7f5e7;
+    padding: 1em;
+    margin-bottom: 1em;
+
+    h3 {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 0.5em;
+      font-weight: 300;
+      font-style: italic;
+      font-family: $body-font;
+      font-size: 1.5em;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        padding: 0.35em 0;
+      }
+    }
+  }
+}
+
+body > footer {
+  grid-area: footer;
+  background-color: #220e10;
+  > div {
+    padding: 1em 3em;
+    @media screen and (min-width: $desktop) {
+      width: $desktop;
+      margin: 0 auto;
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: 300;
+      font-family: $body-font;
+      font-style: italic;
+    }
+  }
 }
 
 body > header {
-  padding-left: 1em;
-  padding-right: 1em;
+  display: grid;
+  grid-area: header;
+  @media screen and (max-width: $desktop) {
+    grid-template-columns: auto $tablet auto;
+  }
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: auto $desktop auto;
+  }
+  grid-row-gap: 3.75em;
+  grid-template-areas:
+    ". masthead ."
+    ". tagline  .";
 
   background: url(/assets/img/masthead.png) no-repeat scroll top;
-  background-size: $tablet auto;
+  background-size: auto 100%;
+  padding-top: 3.75em;
 
   h1 {
+    grid-area: masthead;
     font-family: $masthead-font;
-  }
-
-  h1 {
     margin: 0;
-    font-size: 1.9em;
+    font-size: 3.75em;
   }
 
   h2 {
+    grid-area: tagline;
     margin: 0;
     font-family: $body-font;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
   }
 }
+
+nav {
+  grid-area: nav;
+  display: grid;
+  @media screen and (max-width: $desktop) {
+    grid-template-columns: auto $tablet auto;
+  }
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: auto $desktop auto;
+  }
+  grid-template-areas: ". items .";
+  margin: 0;
+  background-color: #f7f5e7;
+  ol {
+    grid-area: items;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline-block;
+      text-align: center;
+      a {
+        display: inline-block;
+        color: #141412;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 1em 1.45em 1em 0;
+
+        &:hover, &:hover {
+          background-color: #220e10;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+body > article {
+  grid-area: content;
+  padding: 1em 0;
+
+  h1 {
+    font-size: 3em;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  img.alignleft {
+    width: 96px;
+    height: 96px;
+    float: left;
+    margin: 5px 20px 5px 0;
+  }
+}
+
+ul.publications {
+  list-style-type: square;
+}
+
+ul.publications, ol.publications {
+  h3 {
+    color: red;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+
+    &.venue {
+      font-style: italic;
+    }
+  }
+}
+

@@ -15,7 +15,8 @@
         - Ittai Abraham
         - Dahlia Malkhi
       venue: USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016
-      pdf: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
+      paper: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
+      presentation: https://www.usenix.org/conference/atc16/technical-sessions/presentation/tai
       year: 2016
       award:
         - Best Paper Award
@@ -28,7 +29,7 @@
         - Aaron Blankenstein
         - Michael J. Freedman
       venue: In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014.
-      pdf: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
+      paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
       year: 2014
   people:
     - mfreed
