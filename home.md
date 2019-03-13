@@ -15,6 +15,7 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 
 ### Faculty
 
+{:.people}
   {%- for person in leaders %}
 
   * [{{person.name}}]({{person.url}})
@@ -23,12 +24,14 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 
 ### PhD Students
 
+{:.people}
   {%- for person in phds %}
   * [{{person.name}}]({{person.url}})
   {% endfor %}
 
 ### Masters Students
 
+{:.people}
   {%- for person in mscs %}
   * [{{person.name}}]({{person.url}})
   {% endfor %}
