@@ -6,6 +6,8 @@ body {
   font-family: $body-font;
   line-height: 1.5;
   display: grid;
+  max-width: $desktop;
+  margin: 0 auto;
   @media screen and (max-width: $desktop) {
     grid-template-columns: auto ($tablet - 160px) auto;
     grid-template-areas:

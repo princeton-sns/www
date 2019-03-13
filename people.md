@@ -4,24 +4,32 @@ title: People
 permalink: /people
 ---
 
-The SNS group is comprised of the following people. Prospective graduate
-students should apply to Princeton’s PhD program; see the department’s
-[admissions website](http://www.cs.princeton.edu/academics/gradpgm/) or [this
-page](/applicants-interested-in-sns-group) for more information about joining
-the SNS group. Princeton undergraduates are encouraged to contact us for
-research opportunities.
+{%- assign leaders = site.data.people | where: "type", "leader" | where: "active", "true" | sort: "name" %}
+{%- assign phds = site.data.people | where: "type", "phd" | where: "active", "true" | sort: "name" %}
+{%- assign mscs = site.data.people | where: "type", "msc" | where: "active", "true" | sort: "name" %}
+{%- assign alumns = site.data.people | where: "active", "false" | sort: "name" | sort: "graduated" %}
 
-## Group Leaders
+## Faculty
 
-{%- assign leaders = site.data.people | where: "type", "leader" -%}
-{%- assign phds = site.data.people | where: "type", "phd" -%}
+  {%- for person in leaders %}
 
-{% for person in leaders %}
-![{{person.name}}]({{person.picture}}){:class="alignleft"} [{{person.name}}]({{person.url}}) {{person.bio}}
-{% endfor %}
+  * [{{person.name}}]({{person.url}})
 
-## PhD Students
+  {% endfor %}
 
-{% for person in phds %}
-![{{person.name}}]({{person.picture}}){:class="alignleft"} [{{person.name}}]({{person.url}}) {{person.bio}}
-{% endfor %}
+## Current Students
+
+  {%- for person in phds %}
+  * [{{person.name}}]({{person.url}}) (PhD)
+  {% endfor %}
+
+  {%- for person in mscs %}
+  * [{{person.name}}]({{person.url}}) (Masters)
+  {% endfor %}
+
+## Alumni
+
+  {%- for person in alumns %}
+  * [{{person.name}}]({{person.url}}) ({{person.graduated}}) &rarr; {{person.now}}
+  {% endfor %}
+

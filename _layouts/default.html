@@ -22,32 +22,12 @@
 </header>
 <nav>
 <ol>
-<li><a href="/">Home</a></li>
+<li><a href="/">About</a></li>
 <li><a href="/projects">Projects</a></li>
-<li><a href="/people">People</a></li>
 <li><a href="/publications">Publications</a></li>
 </ol>
 </nav>
 {{ content }}
-<aside>
-  <div>
-    <h3>People</h3>
-  {%- assign leaders = site.data.people | where: "type", "leader" | where: "active", "true" -%}
-  {%- assign phds = site.data.people | where: "type", "phd" | where: "active", "true" -%}
-    <ul>
-    {%- for person in leaders -%}
-    <li><a href="{{person.url}}">{{person.name}} (Group Leader)</a></li>
-    {% endfor %}
-    {%- for person in phds -%}
-    <li><a href="{{person.url}}">{{person.name}} (PhD)</a></li>
-    {% endfor %}
-    </ul>
-  </div>
-  <div>
-    <h3>Updates</h3>
-    <a href="#">My Tweets</a>
-  </div>
-</aside>
 <footer>
   <div>
     <h3>Princeton</h3>

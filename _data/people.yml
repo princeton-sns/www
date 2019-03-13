@@ -4,69 +4,39 @@
     active: true
     url: http://www.cs.princeton.edu/~mfreed/
     picture: /assets/img/people/mfreed.jpg
-    bio: >-
-            is a Professor in Princeton’s Computer Science Department, where he
-            has been since 2007.  Prior to that, he received a Ph.D. from NYU’s
-            Courant Insitute, during which he spent two years at Stanford
-            University, and S.B. and M.Eng. degrees from MIT.  Mike’s research
-            interests are in distributed systems, security, and networking,
-            broadly defined.  He used to enjoy climbing, hiking, and
-            mountaineering in his spare time, although this little thing called
-            work keeps getting in the way lately.
+
   - name: Wyatt Lloyd
     nick: wlloyd
     type: leader
     active: true
     url: http://www.cs.princeton.edu/~wlloyd/
     picture: /assets/img/people/wlloyd.png
-    bio: >-
-           is an Assistant Professor of Computer Science at Princeton
-           University. His research interests include the distributed systems
-           and networking problems that underlie the architecture of
-           large-scale Web sites, cloud computing, and big data. He received
-           his Ph.D. from Princeton University in 2013, spend the next year as
-           a Postdoctoral Researcher at Facebook, and spent 3 years as an
-           Assistant Professor of Computer Science at the University of
-           Southern California before returning to Princeton.
+
   - name: Amit Levy
     nick: aalevy
     type: leader
     active: true
     url: http://amitlevy.com
     picture: /assets/img/people/aalevy.png
-    bio: >-
-           is an Assistant Professor of Computer Science at Princeton
-           University. His research interests include the distributed systems
-           and networking problems that underlie the architecture of
-           large-scale Web sites, cloud computing, and big data. He received
-           his Ph.D. from Princeton University in 2013, spend the next year as
-           a Postdoctoral Researcher at Facebook, and spent 3 years as an
-           Assistant Professor of Computer Science at the University of
-           Southern California before returning to Princeton.
+
   - name: Aaron Blankenstein
     nick: ablankst
     type: phd
-    url: http://www.princeton.edu/~ablankst/
+    active: false
+    graduated: 2017
+    now: Blockstack
+    url: https://aaron.blankstein.com/
     picture: /assets/img/people/ablankst.jpg
-    bio: >-
-            is a sixth-year Ph.D. student. Previously, he
-            received an M.Eng. and B.S. degree from MIT, where he worked with
-            Barbara Liskov on information-flow control. He is interested in
-            security and distributed systems, and has worked on untrusted cloud
-            services (Frientegrity and CONIKS) and least privilege web services
-            (Passe). He is currently investigating cost-aware caching
-            architectures for multi-tiered datacenter services.
+
   - name: Amy Tai
     nick: amytai
     type: phd
     active: false
+    graduated: 2018
+    now: VMWare Research
     url: http://www.cs.princeton.edu/~amytai/
     picture: /assets/img/people/amytai.jpg
-    bio: >-
-            is a fourth-year PhD student. She graduated from Harvard
-            University in 2013 with a joint degree in computer science and
-            mathematics. She is interested in the reliability and consistency
-            models of scalable distributed systems and databases.
+
   - name: Andrew Or
     nick: andrewor
     type: phd

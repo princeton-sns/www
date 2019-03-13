@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Home
 permalink: /
 ---
 
@@ -9,8 +8,6 @@ Princeton’s [Computer Science Department](http://www.cs.princeton.edu/). The
 undefined S\* — Scalable, Secure, Self-Organizing, Self-Managing,
 Service-centric, Storage-based — characterizes the broad scope of our research.
 
-
-## People
 
 {%- assign leaders = site.data.people | where: "type", "leader" | where: "active", "true" | sort: "name" %}
 {%- assign phds = site.data.people | where: "type", "phd" | where: "active", "true" | sort: "name" %}
@@ -35,3 +32,4 @@ Service-centric, Storage-based — characterizes the broad scope of our research
   {%- for person in mscs %}
   * [{{person.name}}]({{person.url}})
   {% endfor %}
+
