@@ -1,25 +1,29 @@
-  - name: Mike Freedman
+  - first_name: Mike
+    last_name: Freedman
     nick: mfreed
     type: leader
     active: true
     url: http://www.cs.princeton.edu/~mfreed/
     picture: /assets/img/people/mfreed.jpg
 
-  - name: Wyatt Lloyd
+  - first_name: Wyatt
+    last_name: Lloyd
     nick: wlloyd
     type: leader
     active: true
     url: http://www.cs.princeton.edu/~wlloyd/
     picture: /assets/img/people/wlloyd.png
 
-  - name: Amit Levy
+  - first_name: Amit
+    last_name: Levy
     nick: aalevy
     type: leader
     active: true
     url: http://amitlevy.com
-    picture: /assets/img/people/aalevy.png
+    picture: /assets/img/people/aalevy.jpg
 
-  - name: Aaron Blankenstein
+  - first_name: Aaron
+    last_name: Blankenstein
     nick: ablankst
     type: phd
     active: false
@@ -28,7 +32,8 @@
     url: https://aaron.blankstein.com/
     picture: /assets/img/people/ablankst.jpg
 
-  - name: Amy Tai
+  - first_name: Amy
+    last_name: Tai
     nick: amytai
     type: phd
     active: false
@@ -37,93 +42,133 @@
     url: http://www.cs.princeton.edu/~amytai/
     picture: /assets/img/people/amytai.jpg
 
-  - name: Andrew Or
+  - first_name: Andrew
+    last_name: Or
     nick: andrewor
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~andrewor/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Chris Hodsdon
+  - first_name: Chris
+    last_name: Hodsdon
     nick: chodsdon
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~chodsdon/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Sam Ginzburg
+  - first_name: Sam
+    last_name: Ginzburg
     nick: ginzburg
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~ginzburg/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Haonan Lu
+  - first_name: Haonan
+    last_name: Lu
     nick: haonanl
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~haonanl/
+    picture: /assets/img/people/placeholder.png
 
-  - name: David Liu
+  - first_name: David
+    last_name: Liu
     nick: hl7
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~hl7/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Jefferey Helt
+  - first_name: Jefferey
+    last_name: Helt
     nick: jhelt
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~jhelt/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Jennifer Lam
+  - first_name: Jennifer
+    last_name: Lam
     nick: jl87
     type: msc
     active: true
     url: \#
+    picture: /assets/img/people/placeholder.png
 
-  - name: Joseph Eichenhofer
+  - first_name: Joseph
+    last_name: Eichenhofer
     nick: josephoe
     type: msc
     active: true
     url: \#
+    picture: /assets/img/people/placeholder.png
 
-  - name: Marcela Melara
+  - first_name: Marcela
+    last_name: Melara
     nick: melara
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~melara/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Khiem Ngo
+  - first_name: Khiem
+    last_name: Ngo
     nick: qngo
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~qngo/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Logan Stafman
+  - first_name: Logan
+    last_name: Stafman
     nick: stafman
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~stafman/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Theano Stavrinos
+  - first_name: Theano
+    last_name: Stavrinos
     nick: theanos
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~theanos/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Yue Tan
+  - first_name: Yue
+    last_name: Tan
     nick: yuetan
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~yuetan/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Zhenyu Song
+  - first_name: Zhenyu
+    last_name: Song
     nick: zhenyus
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~zhenyus/
+    picture: /assets/img/people/placeholder.png
 
-  - name: Ashwini Raina
+  - first_name: Ashwini
+    last_name: Raina
     nick: araina
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~araina/
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Siddhartha
+    last_name: Sen
+    nick: sssix
+    type: phd
+    active: false
+    graduated: 2013
+    now: Microsoft Research
+    url: http://www.cs.princeton.edu/~sssix
+    picture: /assets/img/people/sssix.png
 

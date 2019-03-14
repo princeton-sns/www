@@ -14,7 +14,7 @@ layout: default
       <p class="venue">{{ publication.venue }}</p>
       <p>
       {%- if publication.paper -%}
-        [<a href="{{ publication.presentation }}">paper</a>]
+        [<a href="{{ publication.paper }}">paper</a>]
       {%- endif -%}
       {%- if publication.presentation -%}
         [<a href="{{ publication.presentation }}">presentation</a>]
@@ -27,7 +27,7 @@ layout: default
   <ul>
   {%- for p in project.people -%}
   {%- assign person = site.data.people | where: "nick", p | first -%}
-    <li><a href="{{ person.url}}">{{ person.name }}</a></li>
+  <li><a href="{{ person.url}}">{{ person.first_name }} {{person.last_name}}</a></li>
   {%- endfor -%}
   </ul>
 </article>
