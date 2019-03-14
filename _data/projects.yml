@@ -20,6 +20,7 @@
       year: 2016
       award:
         - Best Paper Award
+
 - title: Passe
   id: passe
   brief: "Automating Application Security for Cloud Services"
@@ -34,3 +35,31 @@
   people:
     - mfreed
     - ablankst
+
+- title: SVE
+  id: sve
+  publications:
+    - title: "SVE: Distributed Video Processing at Facebook Scale"
+      people:
+        - Qi Huang
+        - Petchean Ang
+        - Peter Knowles
+        - Tomasz Nykiel
+        - Iaroslav Tverdokhlib
+        - Amit Yajurvedi
+        - Paul Dapolito VI
+        - Xifan Yan
+        - Maxim Bykov
+        - Chuen Liang
+        - Mohit Talwar
+        - Abhishek Mathur
+        - Sachin Kulkarni
+        - Matthew Burke
+        - Wyatt Lloyd
+      venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP 17), Shanghai, China
+      year: 2017
+      paper: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17.pdf
+      presentation: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17-talk-public.pdf
+  people:
+    - wlloyd
+

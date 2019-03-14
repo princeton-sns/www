@@ -10,12 +10,16 @@ permalink: /projects
 ## Active Projects
 
 {% for project in active %}
+{% if project.id %}
 * [{{project.title}}](/projects/{{project.id}})
+{% endif %}
 {% endfor %}
 
 ## Previous Projects
 
 {% for project in previous %}
+{% if project.id %}
 * [{{project.title}}](/projects/{{project.id}})
+{% endif %}
 {% endfor %}
 
