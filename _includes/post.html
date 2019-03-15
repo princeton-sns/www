@@ -1,0 +1,22 @@
+<article>
+  <header>
+    <h1>{{ post.title | escape }}</h1>
+    <time datetime="{{post.date | date_to_xmlschema}}">{{post.date | date: '%B %d, %Y'}}</time>
+    <ul class="categories">
+      {% for category in post.categories %}
+      <li><a href="{{base_url}}/category/{{category | url_encode}}">{{ category }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="tags">
+      {% for tag in post.tags %}
+      <li><a href="{{base_url}}/tag/{{tag | slugify}}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="authors">
+      {% for author in post.authors %}
+      <li><a href="{{base_url}}/author/{{author}}">{{ author }}</a></li>
+      {% endfor %}
+    </ul>
+  </header>
+  {{ post.content }}
+</article>

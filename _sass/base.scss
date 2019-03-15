@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #bc360a;
+  color: $link-color;
   text-decoration: none;
   &:hover, &:active, &:focus {
     color: #ea9629;
@@ -141,9 +141,11 @@ nav {
   }
 }
 
-body > article {
+body > main, body > article {
   grid-area: content;
-  padding: 1em 0;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
 
   h1 {
     font-size: 3em;

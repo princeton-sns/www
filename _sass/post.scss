@@ -1,0 +1,51 @@
+article {
+  max-width: 40em;
+  text-align: justify;
+  header {
+    text-align: left;
+    font-size: 0.8em;
+
+    time, ul {
+      color: $link-color;
+      display: inline-block;
+      line-height: 1em;
+    }
+
+    time:before, ul:before {
+      font-family: Genericons;
+      display: inline-block;
+      line-height: 1em;
+      vertical-align: text-bottom;
+    }
+
+    time:before {
+      content: "\f303";
+    }
+
+    ul.categories:before {
+      content: "\f301";
+    }
+
+    ul.tags:before {
+      content: "\f302";
+    }
+
+    ul.authors:before {
+      content: "\f304";
+    }
+
+    ul {
+      list-item: none;
+
+      li {
+        display: inline;
+        &:after {
+          content: ",";
+        }
+        &:last-of-type:after {
+          content: "";
+        }
+      }
+    }
+  }
+}
