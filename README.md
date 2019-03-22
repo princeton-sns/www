@@ -20,13 +20,35 @@ then go to <http://localhost:4000>
 
 ## Site data
 
+Most of the website is generated from the data in three YAML files:
+
+  * `\_data/people.yml`
+  * `\_data/projects.yml`
+  * `\_data/publications.yml`
+
+The schema is mostly "normalized" to favor updating in the common case (e.g.
+adding a single new publications).
+
+In general, `People` are uniquely identified by their `nick` (usually a
+UNIX/GitHub handle) and `Projects` by their `id` (a short web slug-style name
+for the project).
+
+Projects have a list of "people" from SNS in the project, and publications have
+both "people" (as authors) and, optionally, are associated with a particular
+"project". This lets the website list publications alone, along with their
+project, or with their authors, and centralizes information such as links to
+publications and author websites.
+
+All this means is that, in general, you'll only be updating one file depending
+on what data you're adding. However, you should be somewhat meticulous (e.g.
+just build the site and spot-check the generated content) that cross references
+to people or projects are correct.
+
+The schemas for each file are listed below
+
 ### Group members (people)
 
-The YAML file `data/people.yml` contains a database of group members. Changes
-to that file will propagate throughout the site.
-
-The file is a YAML list of records, one for each person. A record has
-the following fields:
+`\_data/people.yml`
 
 | Field          | Required  | Description                              |
 |----------------|-----------|------------------------------------------|
@@ -45,36 +67,31 @@ on the front page, so make sure your face is in the center.
 
 ### Publications
 
-The YAML file `data/publications.yml` contains a database of publications.
-Changes to that file will propagate throughout the site.
+`\_data/publications.yml`
 
-Each publication is a YAML object:
 
-| Field          | Required  | Description                                   |
-|----------------|-----------|-----------------------------------------------|
-| `title`        | Yes       | Paper title probably in quotes                |
-| `project`      | No        | The project id this publication belongs to    |
-| `people`       | Yes       | Author list                                   |
-| `venue`        | Yes       | File publication venue citation               |
-| `year`         | Yes       | Publication year                              |
-| `paper`        | Yes       | URL to publication PDF                        |
-| `presentation  | No        | URL to conference presentation                |
-| `award`        | No        | List of awards (e.g. `Best Paper Award`)      |
+| Field          | Required  | Description                                       |
+|----------------|-----------|---------------------------------------------------|
+| `title`        | Yes       | Paper title probably in quotes                    |
+| `project`      | No        | The project id this publication belongs to        |
+| `people`       | Yes       | Author list. For authors in SNS, use their `nick` |
+| `venue`        | Yes       | File publication venue citation                   |
+| `year`         | Yes       | Publication year                                  |
+| `paper`        | Yes       | URL to publication PDF                            |
+| `presentation  | No        | URL to conference presentation                    |
+| `award`        | No        | List of awards (e.g. `Best Paper Award`)          |
 
 
 ### Projects
 
-The YAML file `data/projects.yml` contains a database of group projects.
-Changes to that file will propagate throughout the site.
+`\_data/projects.yml`
 
-Each project is a YAML object:
-
-| Field          | Required  | Description                                   |
-|----------------|-----------|-----------------------------------------------|
-| `title`        | Yes       | Project title (probably in quotes)            |
-| `id`           | Yes       | A unique identifier, used for URL slugs       |
-| `active`       | Yes       | `true`/false` whether anyone is working on it |
-| `brief`        | No        | Punchy one line description of the project    |
-| `opensource`   | No        | URL to a GitHub repo, community site, etc     |
-| `people`       | No        | List of `nick`s of SNS `people` involved      |
+| Field          | Required  | Description                                    |
+|----------------|-----------|------------------------------------------------|
+| `title`        | Yes       | Project title (probably in quotes)             |
+| `id`           | Yes       | A unique identifier, used for URL slugs        |
+| `active`       | Yes       | `true`/`false` whether anyone is working on it |
+| `brief`        | No        | Punchy one line description of the project     |
+| `opensource`   | No        | URL to a GitHub repo, community site, etc      |
+| `people`       | No        | List of `nick`s of SNS `people` involved       |
 
