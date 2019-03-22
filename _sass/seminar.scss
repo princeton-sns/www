@@ -1,0 +1,31 @@
+ol.schedule {
+  list-style: none;
+  padding: 0;
+
+  > li p {
+    padding: 1em;
+
+    &:first-of-type {
+      background: #ff8f00;
+      display: grid;
+      grid-template-areas: "date title";
+
+      > .date {
+        text-align: left;
+      }
+
+      > .title {
+        text-align: right;
+      }
+    }
+
+    .speaker {
+      display: block;
+    }
+  }
+
+  li.nospeaker p:first-of-type {
+      background: #ccc;
+  }
+
+}

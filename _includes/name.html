@@ -1,0 +1,6 @@
+{%- assign authobj = site.data.people | where: "nick", author | first -%}
+{%- if authobj -%}
+<a href="{{authobj.url}}">{{ authobj.first_name }} {{authobj.last_name}}</a>
+{%- else -%}
+{{ author }}
+{%- endif -%}

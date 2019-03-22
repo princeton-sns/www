@@ -1,0 +1,54 @@
+- date: 2019-03-18
+  reason: "Spring break!"
+- date: 2019-03-24
+  speaker: jhelt
+  title: "Sandpaper: Mitigating performance interference in CDN edge proxies"
+  abstract: >
+          Modern content delivery networks (CDNs) allow their customers (i.e.,
+          operators of web services) to customize the processing of requests
+          destined for their services by uploading and executing code at the
+          edges of the CDN's network. To achieve scale, CDNs have forgone
+          heavyweight virtualization techniques. Instead, all requests often
+          execute within the same OS or even process. However, performance
+          interference may arise when these requests have differing demands on
+          multiple system resources. In this paper, we study the sources of
+          performance interference based on workloads from real customers,
+          identify the lack of multi-resource fairness as the culprit, and show
+          that existing schedulers available in commodity OSes are
+          insufficient.  
+
+          We then design Sandpaper, a new and practical multi-resource request scheduler
+          for mitigating performance interference in CDN edge-computing environments.
+          Sandpaper enforces fairness despite sitting within the application runtime and
+          running atop the OS's underlying resource schedulers. By leveraging key
+          insights about the differences between theoretical system models and real
+          systems, Sandpaper bridges the fundamental trade-off between resource
+          utilization and multi-resource fairness that plagues existing schedulers. We
+          implement a prototype of Sandpaper and demonstrate its effectiveness in
+          mitigating performance interference. We further show that Sandpaper achieves
+          high resource utilization with little performance overhead.
+- date: 2019-04-01
+  speaker: zhenyus
+  title: TBD
+  abstract: TBD
+- date: 2019-04-08
+  speaker: TBD
+  title: TBD
+  abstract: TBD
+- date: 2019-04-15
+  speaker: hl7
+  title: TBD
+  abstract: TBD
+- date: 2019-04-22
+  speaker: Yushan Su
+  title: TBD
+  abstract: TBD
+- date: 2019-04-29
+  speaker: jl87
+  title: TBD
+  abstract: TBD
+- date: 2019-05-06
+  speaker: theanos
+  title: TBD
+  abstract: TBD
+
