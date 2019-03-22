@@ -1,3 +1,27 @@
+# Database of people currently and formerly in SNS 
+#
+# Example active person:
+#
+# - first_name: MC
+#   last_name: Hammer
+#   nick: hammertime
+#   type: msc
+#   url: http://www.cs.princeton.edu/~skburrel/
+#   picture: /assets/img/people/hammertime.png
+#   active: true
+#
+# Example inactive person:
+#
+# - first_name: Grace
+#   last_name: Hopper
+#   nick: ghop
+#   type: phd
+#   url: http://www.cs.yale.edu/~ghopper06/
+#   picture: /assets/img/people/ghop.png
+#   active: false
+#   graduated: 1934
+#   now: US Navy
+#
   - first_name: Mike
     last_name: Freedman
     nick: mfreed
