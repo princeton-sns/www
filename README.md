@@ -22,9 +22,9 @@ then go to <http://localhost:4000>
 
 Most of the website is generated from the data in three YAML files:
 
-  * `\_data/people.yml`
-  * `\_data/projects.yml`
-  * `\_data/publications.yml`
+  * `_data/people.yml`
+  * `_data/projects.yml`
+  * `_data/publications.yml`
 
 The schema is mostly "normalized" to favor updating in the common case (e.g.
 adding a single new publications).
@@ -48,7 +48,7 @@ The schemas for each file are listed below
 
 ### Group members (people)
 
-`\_data/people.yml`
+`_data/people.yml`
 
 | Field          | Required  | Description                              |
 |----------------|-----------|------------------------------------------|
@@ -67,7 +67,7 @@ on the front page, so make sure your face is in the center.
 
 ### Publications
 
-`\_data/publications.yml`
+`_data/publications.yml`
 
 
 | Field          | Required  | Description                                       |
@@ -84,7 +84,7 @@ on the front page, so make sure your face is in the center.
 
 ### Projects
 
-`\_data/projects.yml`
+`_data/projects.yml`
 
 | Field          | Required  | Description                                    |
 |----------------|-----------|------------------------------------------------|
