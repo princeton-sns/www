@@ -1,4 +1,4 @@
-- title: "Replex"
+- title: Replex
   id: replex
   active: true
   brief: Unifying replication and indexing in distributed storage
@@ -6,60 +6,11 @@
   people:
     - amytai
     - mfreed
-  publications:
-    - title: "Replex: A Scalable, Highly Available Multi-Index Data Store"
-      people:
-        - Amy Tai
-        - Michael Wei
-        - Michael J. Freedman
-        - Ittai Abraham
-        - Dahlia Malkhi
-      venue: USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016
-      paper: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
-      presentation: https://www.usenix.org/conference/atc16/technical-sessions/presentation/tai
-      year: 2016
-      award:
-        - Best Paper Award
 
 - title: Passe
   id: passe
   brief: "Automating Application Security for Cloud Services"
-  publications:
-    - title: Automating Isolation and Least Privilege in Web Services.
-      people:
-        - Aaron Blankenstein
-        - Michael J. Freedman
-      venue: In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014.
-      paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
-      year: 2014
   people:
     - mfreed
     - ablankst
-
-- title: SVE
-  id: sve
-  publications:
-    - title: "SVE: Distributed Video Processing at Facebook Scale"
-      people:
-        - Qi Huang
-        - Petchean Ang
-        - Peter Knowles
-        - Tomasz Nykiel
-        - Iaroslav Tverdokhlib
-        - Amit Yajurvedi
-        - Paul Dapolito VI
-        - Xifan Yan
-        - Maxim Bykov
-        - Chuen Liang
-        - Mohit Talwar
-        - Abhishek Mathur
-        - Sachin Kulkarni
-        - Matthew Burke
-        - Wyatt Lloyd
-      venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP 17), Shanghai, China
-      year: 2017
-      paper: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17.pdf
-      presentation: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17-talk-public.pdf
-  people:
-    - wlloyd
 

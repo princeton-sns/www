@@ -2,15 +2,18 @@
 layout: default
 ---
 {%- assign project = site.data.projects | where: "id", page.project_id | first -%}
+{% comment %}Collect all publications for this project{% endcomment %}
+{%- assign publications = site.data.publications | where: "project", project.id | sort: "year" | reverse -%}
 <article class="project">
   <h1>{{ page.title | escape }}</h1>
   {{ content }}
   <h2>Publications</h2>
   <ul class="publications">
-  {%- for publication in project.publications -%}
+  {%- for publication in publications -%}
     <li>
       <h3>{{ publication.title }}</h3>
-      <p class="authors">{{ publication.people | array_to_sentence_string }}.</p>
+      {% assign authors = publication.people %}
+      <p class="authors">{% include author_list.html %}.</p>
       <p class="venue">{{ publication.venue }}</p>
       <p>
       {%- if publication.paper -%}

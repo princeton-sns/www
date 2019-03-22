@@ -4,15 +4,7 @@ title: Publications
 permalink: /publications
 ---
 
-{% comment %}Collect all publications into a single array from the projects database{% endcomment %} 
-{%- assign pubs = site.data.projects | map: "publications" -%}
-{%- assign publications = nil -%}
-{%- for ps in pubs -%}
-{%- assign publications = publications | concat: ps -%}
-{%- endfor -%}
-
-
-{%- assign publications = publications | sort: "year" | reverse -%}
+{%- assign publications = site.data.publications | sort: "year" | reverse -%}
 {%- assign year = publications | map: "year" | first -%}
 
 ## {{year}}
@@ -26,8 +18,11 @@ permalink: /publications
 {:.publications}
   1. ### {{ publication.title }}
 
-     {{ publication.people | array_to_sentence_string }}  
+     {% assign authors = publication.people %}
+     {:.authors}
+     {% include author_list.html %}.  
 
+     {:.venue}
      {{ publication.venue }}  
 
      {% if publication.paper %}

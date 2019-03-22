@@ -18,7 +18,9 @@ $ bundle exec jekyll start
 
 then go to <http://localhost:4000>
 
-## Adding group members
+## Site data
+
+### Group members (people)
 
 The YAML file `data/people.yml` contains a database of group members. Changes
 to that file will propagate throughout the site.
@@ -41,16 +43,31 @@ the following fields:
 Pictures should be square and around 200x200 pixels. They are currently rounded
 on the front page, so make sure your face is in the center.
 
-## Adding projects/papers
+### Publications
 
-Projects and papers are coupled. Meaning, every paper should be associated with
-a project. This means if you have a one-off paper, you have to make a project
-for it.
+The YAML file `data/publications.yml` contains a database of publications.
+Changes to that file will propagate throughout the site.
 
-The YAML file `data/projects.yml` contains a database of group projects and
-publications. Changes to that file will propagate throughout the site.
+Each publication is a YAML object:
 
-Each project is a nested YAML object:
+| Field          | Required  | Description                                   |
+|----------------|-----------|-----------------------------------------------|
+| `title`        | Yes       | Paper title probably in quotes                |
+| `project`      | No        | The project id this publication belongs to    |
+| `people`       | Yes       | Author list                                   |
+| `venue`        | Yes       | File publication venue citation               |
+| `year`         | Yes       | Publication year                              |
+| `paper`        | Yes       | URL to publication PDF                        |
+| `presentation  | No        | URL to conference presentation                |
+| `award`        | No        | List of awards (e.g. `Best Paper Award`)      |
+
+
+### Projects
+
+The YAML file `data/projects.yml` contains a database of group projects.
+Changes to that file will propagate throughout the site.
+
+Each project is a YAML object:
 
 | Field          | Required  | Description                                   |
 |----------------|-----------|-----------------------------------------------|
@@ -60,17 +77,4 @@ Each project is a nested YAML object:
 | `brief`        | No        | Punchy one line description of the project    |
 | `opensource`   | No        | URL to a GitHub repo, community site, etc     |
 | `people`       | No        | List of `nick`s of SNS `people` involved      |
-| `publications` | No        | List of publications (fields in next table)   |
-
-Each publication is itself a YAML object:
-
-| Field          | Required  | Description                                   |
-|----------------|-----------|-----------------------------------------------|
-| `title`        | Yes       | Paper title probably in quotes                |
-| `people`       | Yes       | Author list                                   |
-| `venue`        | Yes       | File publication venue citation               |
-| `year`         | Yes       | Publication year                              |
-| `paper`        | Yes       | URL to publication PDF                        |
-| `presentation  | No        | URL to conference presentation                |
-| `award`        | No        | List of awards (e.g. `Best Paper Award`)      |
 
