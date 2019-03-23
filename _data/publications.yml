@@ -6,7 +6,7 @@
     - mfreed
     - Ittai Abraham
     - Dahlia Malkhi
-  venue: USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016
+  venue: "USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016"
   paper: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
   presentation: https://www.usenix.org/conference/atc16/technical-sessions/presentation/tai
   year: 2016
@@ -19,7 +19,7 @@
   people:
     - ablankst
     - mfreed
-  venue: In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014.
+  venue: "In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014."
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
 
@@ -40,7 +40,7 @@
     - Sachin Kulkarni
     - Matthew Burke
     - wlloyd
-  venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China
+  venue: "In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China"
   year: 2017
   paper: /assets/papers/2017-sosp-huang.pdf
   presentation: /assets/slides/2017-sosp-huang.pdf
@@ -55,7 +55,7 @@
     - Jeongkeun Lee
     - Changhoon Kim
     - Ion Stoica
-  venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China
+  venue: "In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China"
   year: 2017
   paper: /assets/papers/2017-sosp-jin.pdf
   presentation: /assets/slides/2017-sosp-jin.pdf
@@ -66,7 +66,7 @@
     - Logan Stafman
     - Andrew Or
     - mfreed
-  venue: In Proc. ACM Symposium on Cloud Computing (SoCC '17), Santa Clara, CA
+  venue: "In Proc. ACM Symposium on Cloud Computing (SoCC '17), Santa Clara, CA"
   year: 2017
   paper: /assets/papers/2017-socc-zhang.pdf
   award:
@@ -83,7 +83,7 @@
     - Wyatt Lloyd
     - Matthew Luckie
     - Ethan Katz-Bassett
-  venue: In Proc. 2017 Internet Measurement Conference (IMC '17), London, United Kingdom
+  venue: "In Proc. 2017 Internet Measurement Conference (IMC '17), London, United Kingdom"
   year: 2017
   paper: /assets/papers/2017-imc-goodchild.pdf
 
@@ -95,7 +95,7 @@
     - Ymir Vigfusson
     - Wyatt Lloyd
     - Kai Li
-  venue: In Proc. 2017 USENIX Annual Technical Conference (ATC '17), Santa Clara, CA
+  venue: "In Proc. 2017 USENIX Annual Technical Conference (ATC '17), Santa Clara, CA"
   year: 2017
   paper: /assets/papers/2017-atc-tang.pdf
   presentation: /assets/slides/2017-atc-tang.pdf
@@ -108,7 +108,7 @@
     - Lorenzo Alvisi
     - Nathan Bronson
     - Wyatt Lloyd
-  venue: In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA
+  venue: "In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA"
   year: 2017
   paper: /assets/papers/2017-nsdi-mehdi.pdf
   presentation: /assets/slides/2017-nsdi-mehdi.pdf
@@ -121,7 +121,7 @@
     - Matthai Philipose
     - Paramvir Bahl
     - mfreed
-  venue: In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA
+  venue: "In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA"
   year: 2017
   paper: /assets/papers/2017-nsdi-zhang.pdf
   presentation: /assets/slides/2017-nsdi-zhang.pdf
