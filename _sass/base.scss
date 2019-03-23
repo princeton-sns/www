@@ -25,69 +25,55 @@ a {
   color: $link-color;
   text-decoration: none;
   &:hover, &:active, &:focus {
-    color: #ea9629;
+    color: $accent-color;
     text-decoration: underline;
   }
 }
 
-
-body > aside {
-  grid-area: people;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: 0.9em;
-
-  > div {
-    background-color: #f7f5e7;
-    padding: 1em;
-    margin-bottom: 1em;
-
-    h3 {
-      padding: 0;
-      margin: 0;
-      margin-bottom: 0.5em;
-      font-weight: 300;
-      font-style: italic;
-      font-family: $body-font;
-      font-size: 1.5em;
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      li {
-        padding: 0.35em 0;
-      }
-    }
-  }
+ul {
+  list-style-type: square;
 }
 
+// Website footer is a modified Princeton orange on Princeton black
 body > footer {
   grid-area: footer;
-  background-color: #220e10;
-  > div {
-    padding: 1em 3em;
-    h3 {
-      color: #fff;
-      font-size: 1.3em;
-      font-weight: 300;
-      font-family: $body-font;
-      font-style: italic;
+  background-color: $secondary-bg-color;
+  color: $secondary-fg-color;
+  padding: 2em 3em;
+  ol {
+    margin: 0 auto;
+    width: fit-content;
+    list-style: none;
+    padding: 0;
+    li {
+      &:after {
+        content: " | ";
+      }
+      &:last-child:after {
+        content: "";
+      }
+      display: inline;
     }
+  }
+  a, a:hover, a:focus, a:active {
+    color: $secondary-fg-color;
   }
 }
 
+// Header is black on Princeton orange.
+//
+// Text centered, with group name in bigger bold on top and tag line below in
+// slightly smaller font. Top and bottom margins match group name font size.
 body > header {
   display: grid;
   grid-area: header;
-  grid-template-columns: auto $desktop auto;
+  grid-template-columns: $desktop;
   grid-row-gap: 1em;
   grid-template-areas:
-    ". masthead ."
-    ". tagline  .";
+    "masthead"
+    "tagline";
 
-  background-color: #ff8f00;
+  background-color: $primary-bg-color;
   background-size: auto 100%;
   padding-top: 3.75em;
   padding-bottom: 3.75em;
@@ -109,13 +95,18 @@ body > header {
   }
 }
 
+// Navigation bar below header transforms an ordered list into a horizontal
+// nav-bar style.
+//
+// Links rendered in main font color normally, switching to Princeton black
+// with Princeton orange font when hovering or active.
 nav {
   grid-area: nav;
   display: grid;
-  grid-template-columns: auto $desktop auto;
-  grid-template-areas: ". items .";
+  grid-template-columns: $desktop;
+  grid-template-areas: "items";
   margin: 0;
-  background-color: #f7f5e7;
+  background-color: $secondary-light-bg-color;
   ol {
     grid-area: items;
     list-style: none;
@@ -126,14 +117,14 @@ nav {
       text-align: center;
       a {
         display: inline-block;
-        color: #141412;
+        color: $main-color;
         text-decoration: none;
         font-size: 1em;
         padding: 1em 1.45em;
 
-        &:hover, &:hover {
-          background-color: #220e10;
-          color: white;
+        &:hover {
+          background-color: $secondary-bg-color;
+          color: $secondary-fg-color;
           text-decoration: none;
         }
       }
@@ -141,6 +132,7 @@ nav {
   }
 }
 
+// Basic main content styling
 body > main, body > article {
   grid-area: content;
   padding-left: 5em;
@@ -155,15 +147,17 @@ body > main, body > article {
   h2 {
     font-size: 1.4em;
   }
-
-  img.alignleft {
-    width: 96px;
-    height: 96px;
-    float: left;
-    margin: 5px 20px 5px 0;
-  }
 }
 
+// Display listings of group members as rows of triptics (three per row). Each
+// person is in a `li` and contains at least two `p` child elements:
+//
+//  * First, one containing a square profile image. This is displayed as a
+//  circle the height of the row.
+//  * Name
+//
+// Alumni have an additional row for their graduation year and current
+// affiliation.
 ul.people {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
@@ -175,9 +169,8 @@ ul.people {
     p {
       display: grid;
       text-align: center;
-      height: 5em;
       > * {
-        line-height: 5em;
+        display: block;
       }
     }
 
@@ -186,25 +179,29 @@ ul.people {
       grid-template-columns: 6em auto;
       grid-template-areas: "img name" ". .";
       img {
-        display: block;
         grid-area: img;
         vertical-align: middle;
-	height: 100%;
+	height: 5em;
         border-radius: 100%;
         margin-right: 1em;
       }
       a {
-        display: block;
         grid-area: name;
+        line-height: 1em;
+	margin: auto 0;
       }
     }
   }
 }
 
-ul.publications {
-  list-style-type: square;
-}
-
+// Publications are structured like so:
+// <h3>Paper title</h3>
+// <p class="authors">List Of, Authors In, The Paper.</p>
+// <p class="venue">In proceedings of the 9th conference on web design</p>
+// <p>
+//   [<a href="/assets/papers/9-webdev.pdf">paper</a>]
+//   [<a href="/assets/slides/9-webdev.pdf">presentation</a>]
+// </p>
 ul.publications, ol.publications {
   h3 {
     color: red;
