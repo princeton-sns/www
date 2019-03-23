@@ -40,7 +40,88 @@
     - Sachin Kulkarni
     - Matthew Burke
     - wlloyd
-  venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP 17), Shanghai, China
+  venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China
   year: 2017
-  paper: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17.pdf
-  presentation: http://www.cs.princeton.edu/~wlloyd/papers/sve-sosp17-talk-public.pdf
+  paper: /assets/papers/2017-sosp-huang.pdf
+  presentation: /assets/slides/2017-sosp-huang.pdf
+
+- title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
+  people:
+    - Xin Jin
+    - Xiaozhou Li
+    - Haoyu Zhang
+    - Robert Soule
+    - Nate Foster
+    - Jeongkeun Lee
+    - Changhoon Kim
+    - Ion Stoica
+  venue: In Proc. 26th ACM Symposium on Operating Systems Principles (SOSP '17), Shanghai, China
+  year: 2017
+  paper: /assets/papers/2017-sosp-jin.pdf
+  presentation: /assets/slides/2017-sosp-jin.pdf
+
+- title: "SLAQ: Quality-Driven Scheduling for Distributed Machine Learning"
+  people:
+    - Haoyu Zhang
+    - Logan Stafman
+    - Andrew Or
+    - mfreed
+  venue: In Proc. ACM Symposium on Cloud Computing (SoCC '17), Santa Clara, CA
+  year: 2017
+  paper: /assets/papers/2017-socc-zhang.pdf
+  award:
+    - Best Paper Award
+
+- title: "The Record Route Option is an Option!"
+  people:
+    - Brian Goodchild
+    - Yi-Ching Chiu
+    - Haonan Lu
+    - Rob Hansen
+    - Matt Calder
+    - Dave Choffnes
+    - Wyatt Lloyd
+    - Matthew Luckie
+    - Ethan Katz-Bassett
+  venue: In Proc. 2017 Internet Measurement Conference (IMC '17), London, United Kingdom
+  year: 2017
+  paper: /assets/papers/2017-imc-goodchild.pdf
+
+- title: "Popularity Prediction of Facebook Videos for Higher Quality Streaming"
+  people:
+    - Linpeng Tang
+    - Qi Huang
+    - Amit Puntambekar
+    - Ymir Vigfusson
+    - Wyatt Lloyd
+    - Kai Li
+  venue: In Proc. 2017 USENIX Annual Technical Conference (ATC '17), Santa Clara, CA
+  year: 2017
+  paper: /assets/papers/2017-atc-tang.pdf
+  presentation: /assets/slides/2017-atc-tang.pdf
+
+- title: "I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades"
+  people:
+    - Syed Akbar Mehdi
+    - Cody Littley
+    - Natacha Crooks
+    - Lorenzo Alvisi
+    - Nathan Bronson
+    - Wyatt Lloyd
+  venue: In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA
+  year: 2017
+  paper: /assets/papers/2017-nsdi-mehdi.pdf
+  presentation: /assets/slides/2017-nsdi-mehdi.pdf
+
+- title: "Live Video Analytics at Scale with Approximation and Delay-Tolerance"
+  people:
+    - Haoyu Zhang
+    - Ganesh Ananthanarayanan
+    - Peter Bodik
+    - Matthai Philipose
+    - Paramvir Bahl
+    - mfreed
+  venue: In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA
+  year: 2017
+  paper: /assets/papers/2017-nsdi-zhang.pdf
+  presentation: /assets/slides/2017-nsdi-zhang.pdf
