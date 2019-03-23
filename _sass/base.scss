@@ -175,6 +175,7 @@ ul.people {
     p {
       display: grid;
       text-align: center;
+      height: 5em;
       > * {
         line-height: 5em;
       }
