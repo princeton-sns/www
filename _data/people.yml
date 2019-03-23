@@ -106,13 +106,13 @@
     url: http://www.cs.princeton.edu/~hl7/
     picture: /assets/img/people/placeholder.png
 
-  - first_name: Jefferey
+  - first_name: Jeffrey
     last_name: Helt
     nick: jhelt
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~jhelt/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/jhelt.jpg
 
   - first_name: Jennifer
     last_name: Lam
