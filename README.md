@@ -13,7 +13,7 @@ To run locally:
 
 ```
 $ bundle install
-$ bundle exec jekyll start
+$ bundle exec jekyll serve
 ```
 
 then go to <http://localhost:4000>
@@ -56,7 +56,7 @@ The schemas for each file are listed below
 | `last_name`    | Yes       | Last name                                |
 | `nick`         | Yes       | UNIX handle, or other shortname          |
 | `type`         | Yes       | One of `leader`, `phd`, or `msc`         |
-| `actuve`       | Yes       | `true`/`false`, are they around          |
+| `active`       | Yes       | `true`/`false`, are they around          |
 | `graduated`    | No        | Graduation year if not `active`          |
 | `now`          | No        | Where are the y now, if not `active`     |
 | `url`          | Yes       | Personal website              `          |
