@@ -98,13 +98,13 @@
     url: http://www.cs.princeton.edu/~haonanl/
     picture: /assets/img/people/placeholder.png
 
-  - first_name: David
+  - first_name: David H.
     last_name: Liu
     nick: hl7
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~hl7/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/hl7.jpg
 
   - first_name: Jeffrey
     last_name: Helt

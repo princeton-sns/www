@@ -1,28 +1,3 @@
-- title: "Replex: A Scalable, Highly Available Multi-Index Data Store"
-  project: replex
-  people:
-    - amytai
-    - Michael Wei
-    - mfreed
-    - Ittai Abraham
-    - Dahlia Malkhi
-  venue: "USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016"
-  paper: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
-  presentation: https://www.usenix.org/conference/atc16/technical-sessions/presentation/tai
-  year: 2016
-  award:
-    - Best Paper Award
-
-
-- title: Automating Isolation and Least Privilege in Web Services.
-  project: passe
-  people:
-    - ablankst
-    - mfreed
-  venue: "In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014."
-  paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
-  year: 2014
-
 - title: "SVE: Distributed Video Processing at Facebook Scale"
   people:
     - Qi Huang
@@ -125,3 +100,77 @@
   year: 2017
   paper: /assets/papers/2017-nsdi-zhang.pdf
   presentation: /assets/slides/2017-nsdi-zhang.pdf
+
+- title: "Replex: A Scalable, Highly Available Multi-Index Data Store"
+  project: replex
+  people:
+    - amytai
+    - Michael Wei
+    - mfreed
+    - Ittai Abraham
+    - Dahlia Malkhi
+  venue: "USENIX Annual Technical Conference 2016 (ATC ’16) Denver, Colorado, June 2016"
+  paper: http://sns.cs.princeton.edu/wp-content/uploads/2016/10/atc2016.pdf
+  presentation: https://www.usenix.org/conference/atc16/technical-sessions/presentation/tai
+  year: 2016
+  award:
+    - Best Paper Award
+
+- title: "Existential Consistency: Measuring and Understanding Consistency at Facebook"
+  people:
+    - Haonan Lu
+    - Kaushik Veeraraghavan
+    - Philippe Ajoux
+    - Jim Hunt
+    - Yee Jiun Song
+    - Wendy Tobagus
+    - Sanjeev Kumar
+    - Wyatt Lloyd
+  venue: "Proc. 25th ACM Symposium on Operating Systems Principles (SOSP 15), October 2015"
+  paper: /assets/papers/2015-sosp-lu.pdf
+  presentation: /assets/slides/2015-sosp-lu.pdf
+  year: 2015
+
+- title: "RIPQ: Advanced Photo Caching on Flash for Facebook"
+  people:
+    - Linpeng Tang
+    - Qi Huang
+    - Wyatt Lloyd
+    - Sanjeev Kumar
+    - Kai Li
+  venue: "Proc. 13th USENIX Conference on File and Storage Technologies (FAST 15), February 2015"
+  paper: /assets/papers/2015-fast-tang.pdf
+  presentation: /assets/slides/2015-fast-tang.pdf
+  year: 2015
+
+- title: "CONIKS: Bringing Key Transparency to End Users"
+  people:
+    - Marcela S. Melara
+    - Aaron Blankstein
+    - Joseph Bonneau
+    - Edward W. Felten
+    - Michael J. Freedman
+  venue: "Proc. 24th USENIX Security Symposium (Security '15) Washington, DC, August 2015."
+  paper: /assets/papers/2015-sec-melara.pdf
+  presentation: /assets/slides/2015-sec-melara.pdf
+  year: 2015
+  award: 2017 Caspar Bowden Award for Privacy Enhancing Technologies
+
+- title: "Ravana: Controller Fault-Tolerance in Software-Defined Networking"
+  people:
+    - Naga Katta
+    - Haoyu Zhang
+    - Michael J. Freedman
+    - Jennifer Rexford
+  venue: "Proc. ACM Sigcomm Symposium on SDN Research (SOSR '15) Santa Clara, CA, June 2015."
+  paper: /assets/papers/2015-sosr-katta.pdf
+  year: 2015
+
+- title: Automating Isolation and Least Privilege in Web Services.
+  project: passe
+  people:
+    - ablankst
+    - mfreed
+  venue: "In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014."
+  paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
+  year: 2014
