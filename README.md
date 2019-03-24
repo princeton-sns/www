@@ -78,7 +78,7 @@ on the front page, so make sure your face is in the center.
 | `venue`        | Yes       | File publication venue citation                   |
 | `year`         | Yes       | Publication year                                  |
 | `paper`        | Yes       | URL to publication PDF                            |
-| `presentation  | No        | URL to conference presentation                    |
+| `presentation` | No        | URL to conference presentation                    |
 | `award`        | No        | List of awards (e.g. `Best Paper Award`)          |
 
 
