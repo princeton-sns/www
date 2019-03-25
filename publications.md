@@ -10,12 +10,12 @@ permalink: /publications
 ## {{year}}
 
 {% for publication in publications %}
-{%- if publication.year != year -%}
+{:.publications}
+{% if publication.year != year %}
 {%- assign year = publication.year -%}
 ## {{year}}
 {% endif %}
 
-{:.publications}
   1. ### {{ publication.title }}
 
      {% assign authors = publication.people %}
