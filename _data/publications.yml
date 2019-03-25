@@ -262,3 +262,27 @@
   paper: /assets/papers/2010-pet-applebaum.pdf
   presentation: /assets/slides/2010-pet-applebaum.pdf
   year: 2010
+- title: "Peer-Assisted Content Distribution with Prices"
+  people:
+    - Christina Aperjis
+    - mfreed
+    - Ramesh Johari
+  venue: "Proc. ACM SIGCOMM Conference on emerging Networking Experiments and Technologies"
+  paper: /assets/papers/2008-conext-aperjis.pdf
+  year: 2008
+- title: "A Comparison of Bilateral and Multilateral Exchanges for Peer-Assisted Content Distribution"
+  people:
+    - Christina Aperjis
+    - mfreed
+    - Ramesh Johari
+  venue: "Proc. 2nd Workshop on Network Control and Optimization"
+  paper: /assets/papers/2008-netcoop-aperjis.pdf
+  year: 2008
+- title: "Prices are Right: Managing resources and incentives in peer-assisted content distribution"
+  people:
+    - mfreed
+    - Christina Aperjis
+    - Ramesh Johari
+  venue: "Proc. 7th International Workshop on Peer-to-Peer Systems"
+  paper: /assets/papers/2008-iptps-freedman.pdf
+  year: 2008
