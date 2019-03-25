@@ -562,13 +562,53 @@
 
 - title: "Bridging the Theory-Practice Gap in Multi-Commodity Flow Routing (Brief Announcement)"
   people:
-    - Siddhartha Sen, , 
+    - Siddhartha Sen
     - Sunghwan Ihm
     - Kay Ousterhout
     - Michael J. Freedman
   venue: "Proc. 25th International Symposium on DIStributed Computing"
   year: 2011
   paper: /assets/papers/2011-disc-sen.pdf
+
+- title: "Towards Efficient Stream Processing at Global Scale"
+  people:
+    - Matvey Arye
+    - Siddhartha Sen
+    - Ariel Rabkin
+    - Michael J. Freedman
+  venue: "Proc. Large-Scale Distributed Systems and Middleware"
+  year: 2012
+  paper: /assets/papers/2012-ladis-arye.pdf
+
+- title: "Towards Predictable Multi-Tenant Shared Cloud Storage"
+  people:
+    - David Shue
+    - Michael J. Freedman
+    - Anees Shaikh
+  venue: "Proc. Large-Scale Distributed Systems and Middleware"
+  year: 2012
+  paper: /assets/papers/2012-ladis-shue.pdf
+
+- title: "On the Price of Equivocation in Byzantine Agreement"
+  people:
+    - Alexander Jaffe
+    - Siddhartha Sen
+    - Thomas Moscibroda
+  venue: "Proc. 31st ACM Symposium on Principles of Distributed Computing"
+  year: 2012
+  paper: /assets/papers/2012-podc-jaffe.pdf
+
+- title: "Unsupervised Conversion of 3D models for Interactive Metaverses"
+  people:
+    - Jeff Terrace
+    - Ewen Cheslack-Postava
+    - Philip Levis
+    - Michael J. Freedman
+  venue: "Proc. IEEE International Conference on Multimedia and Expo"
+  year: 2012
+  paper: /assets/papers/2012-icme-terrace.pdf
+  presentation: /assets/slides/2012-icme-terrace.pdf
+
 
 
 
