@@ -122,13 +122,13 @@
     url: \#
     picture: /assets/img/people/placeholder.png
 
-  - first_name: Joe
+  - first_name: Joseph
     last_name: Eichenhofer
-    nick: josephoe
+    nick: jeichenhofer
     type: msc
     active: true
-    url: \#
-    picture: /assets/img/people/placeholder.png
+    url: https://jeichenhofer.com/
+    picture: /assets/img/people/jeichenhofer.png
 
   - first_name: Marcela
     last_name: Melara
