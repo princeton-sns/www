@@ -74,13 +74,13 @@
     url: http://www.cs.princeton.edu/~andrewor/
     picture: /assets/img/people/andrewor.png
 
-  - first_name: Chris
+  - first_name: Christopher
     last_name: Hodsdon
     nick: chodsdon
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~chodsdon/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/chodsdon.jpg
 
   - first_name: Sam
     last_name: Ginzburg
