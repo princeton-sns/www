@@ -206,6 +206,74 @@
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
 
+- title: "Privacy and Integrity are Possible in the Untrusted Cloud"
+  people:
+    - Ariel J. Feldman
+    - Aaron Blankstein
+    - Michael J. Freedman
+    - Edward W. Felten
+  venue: "In Proc. IEEE Data Engineering Bulletin Vol 35, Num 4, December 2012."
+  paper: /assets/papers/2012-deb-feldman.pdf
+  year: 2012
+
+- title: "Increasing network resilience through edge diversity in NEBULA"
+  people:
+    - Matvey Arye
+    - Robert Kiefer
+    - Kyle Super
+    - Erik Nordstrom
+    - Michael J. Freedman
+    - Eric Keller
+    - Tom Rondeau
+    - Jonathan M. Smith
+  venue: "In Proc. ACM SIGMOBILE Mobile Computing and Communications Review Vol 16 Num 3, December 2012."
+  paper: /assets/papers/2012-sigmobile-arye.pdf
+  year: 2012
+
+- title: "Scalable Inference of Overlapping Communities"
+  people:
+    - Prem Gopalan
+    - David Mimno
+    - Sean Gerrish
+    - Michael J. Freedman
+    - David Blei
+  venue: "In Proc. Neural Information Processing Systems
+      (NIPS ’12) Lake Tahoe, NV, December 2012."
+  paper: /assets/papers/2012-nips-gopalan.pdf
+  year: 2012
+
+- title: "A Formally-Verified Migration Protocol For Mobile, Multi-Homed Hosts"
+  people:
+    - Matvey Arye
+    - Erik Nordstrom
+    - Robert Kiefer
+    - Jennifer Rexford
+    - Michael J. Freedman
+  venue: "In Proc. IEEE International Conference on Network Protocols (ICNP ’12) Austin, TX, October 2012."
+  paper: /assets/papers/2012-icnp-arye.pdf
+  year: 2012
+
+- title: "Performance Isolation and Fairness for Multi-Tenant Cloud Storage"
+  people:
+    - David Shue
+    - Michael J. Freedman
+    - Anees Shaikh
+  venue: "In Proc. Symposium on Operating Systems Design and Implementation
+      (OSDI ’12). Hollywood, CA, October 2012."
+  paper: /assets/papers/2012-osdi-shue.pdf
+  presentation: /assets/slides/2012-osdi-shue.ppt
+  year: 2012
+
+- title: "Social Networking with Frientegrity: Privacy and Integrity with an Untrusted Provider"
+  people:
+    - Ariel J. Feldman
+    - Aaron Blankstein
+    - Michael J. Freedman
+    - Edward W. Felten
+  venue: "In Proc. USENIX Security (Sec ’12). Bellevue, WA, August 2012."
+  paper: /assets/papers/2012-sec-feldman.pdf
+  year: 2012
+
 - title: "Frenetic: A High-Level Language for OpenFlow Networks"
   people:
     - Nate Foster
