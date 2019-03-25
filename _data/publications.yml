@@ -286,3 +286,38 @@
   venue: "Proc. 7th International Workshop on Peer-to-Peer Systems"
   paper: /assets/papers/2008-iptps-freedman.pdf
   year: 2008
+
+- title: "Feeding Frenzy: Selectively Materializing Users’ Event Feeds"
+  people: 
+    - Adam Silberstein
+    - Jeff Terrace
+    - Brian Frank Cooper
+    - Raghu Ramakrishnan
+  venue: "SIGMOD"
+  paper: /assets/papers/2010-sigmod-silberstein.pdf
+  year: 2010
+
+- title: "Experiences with Tracing Causality in Networked Services"
+  people: 
+    - Rodrigo Fonseca
+    - mfreed
+    - George Porter
+  venue: "INM/WREN"
+  paper: /assets/papers/2010-inm-fonseca.pdf
+  year: 2010
+
+- title: "Experiences with CoralCDN: A Five-Year Operational View"
+  people: 
+    - mfreed
+  venue: "NSDI"
+  paper: /assets/papers/2010-nsdi-freedman.pdf
+  year: 2010
+
+- title: "Prophecy: Using History for High-Throughput Fault Tolerance"
+  people: 
+    - Siddhartha Sen
+    - wlloyd
+    - mfreed
+  venue: "NSDI"
+  paper: /assets/papers/2010-nsdi-sen.pdf
+  year: 2010
