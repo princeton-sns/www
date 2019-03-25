@@ -1,3 +1,34 @@
+- title: "Riffle: Optimized shuffle service for large-scale data analytics"
+  people:
+    - Haoyu Zhang
+    - Brian Cho
+    - Ergin Seyfe
+    - Avery Ching
+    - mfreed
+  venue: "Proceedings of the Thirteenth EuroSys Conference"
+  year: 2018
+  paper: assets/papers/2018-riffle-zhang.pdf
+
+- title: "Dynamic Multi-Clock Management for Embedded Systems"
+  people:
+    - Holly Chiang
+    - Daniel Giffin
+    - aalevy
+    - Philip Levis
+  venue: "Proceedings of the 16th ACM Conference on Embedded Networked Sensor Systems"
+  year: 2018
+  paper: assets/papers/2018-iot-chiang.pdf
+
+- title: "Don’t Talk Unless I Say So! Securing the Internet of Things With Default-Off Networking"
+  people:
+    - James Hong
+    - aalevy
+    - Laurynas Riliskis
+    - Philip Levis
+  venue: "2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation"
+  year: 2018
+  paper: assets/papers/2018-iot-hong.pdf
+
 - title: "SVE: Distributed Video Processing at Facebook Scale"
   people:
     - Qi Huang
@@ -51,11 +82,11 @@
   people:
     - Brian Goodchild
     - Yi-Ching Chiu
-    - Haonan Lu
+    - haonanl
     - Rob Hansen
     - Matt Calder
     - Dave Choffnes
-    - Wyatt Lloyd
+    - wlloyd
     - Matthew Luckie
     - Ethan Katz-Bassett
   venue: "In Proc. 2017 Internet Measurement Conference (IMC '17), London, United Kingdom"
@@ -125,7 +156,7 @@
     - Yee Jiun Song
     - Wendy Tobagus
     - Sanjeev Kumar
-    - Wyatt Lloyd
+    - wlloyd
   venue: "Proc. 25th ACM Symposium on Operating Systems Principles (SOSP 15), October 2015"
   paper: /assets/papers/2015-sosp-lu.pdf
   presentation: /assets/slides/2015-sosp-lu.pdf
@@ -135,7 +166,7 @@
   people:
     - Linpeng Tang
     - Qi Huang
-    - Wyatt Lloyd
+    - wlloyd
     - Sanjeev Kumar
     - Kai Li
   venue: "Proc. 13th USENIX Conference on File and Storage Technologies (FAST 15), February 2015"
@@ -149,7 +180,7 @@
     - Aaron Blankstein
     - Joseph Bonneau
     - Edward W. Felten
-    - Michael J. Freedman
+    - mfreed
   venue: "Proc. 24th USENIX Security Symposium (Security '15) Washington, DC, August 2015."
   paper: /assets/papers/2015-sec-melara.pdf
   presentation: /assets/slides/2015-sec-melara.pdf
@@ -160,7 +191,7 @@
   people:
     - Naga Katta
     - Haoyu Zhang
-    - Michael J. Freedman
+    - mfreed
     - Jennifer Rexford
   venue: "Proc. ACM Sigcomm Symposium on SDN Research (SOSR '15) Santa Clara, CA, June 2015."
   paper: /assets/papers/2015-sosr-katta.pdf
@@ -180,7 +211,7 @@
     - Nate Foster
     - Rob Harrison
     - Matthew L. Meola
-    - Michael J. Freedman
+    - mfreed
     - Jennifer Rexford
     - David Walker
   venue: "In Proc. Workshop on Programmable Routers for Extensible Services of Tomorrow (PRESTO '10) Philadelphia, PA. November 2010."
@@ -191,7 +222,7 @@
   people:
     - Ariel J. Feldman
     - William P. Zeller
-    - Michael J. Freedman
+    - mfreed
     - Edward W. Felten
   venue: "In Proc. Symposium on Operating Systems Design and Implementation (OSDI '10) Vancouver, BC, October 2010."
   paper: /assets/papers/2010-osdi-feldman.pdf
@@ -202,7 +233,7 @@
   people:
     - Minlan Yu
     - Jennifer Rexford
-    - Michael J. Freedman
+    - mfreed
     - Jia Wang
   venue: "In Proc. ACM SIGCOMM Conference (SIGCOMM '10) New Delhi, India, August 2010."
   paper: /assets/papers/2010-sigcomm-yu.pdf
@@ -213,7 +244,7 @@
   people:
     - Patrick Wendell
     - Joe Wenjie Jiang
-    - Michael J. Freedman
+    - mfreed
     - Jennifer Rexford
   venue: "In Proc. ACM SIGCOMM Conference (SIGCOMM '10) New Delhi, India, August 2010."
   paper: /assets/papers/2010-sigcomm-wendell.pdf
@@ -224,11 +255,10 @@
   people:
     - Benny Applebaum
     - Haakon Ringberg
-    - Michael J. Freedman
+    - mfreed
     - Matthew Caesar
     - Jennifer Rexford
   venue: "In Proc. 10th Privacy Enhancing Technologies Symposium (PET '10) Berlin, Germany, July 2010."
   paper: /assets/papers/2010-pet-applebaum.pdf
   presentation: /assets/slides/2010-pet-applebaum.pdf
   year: 2010
-  
