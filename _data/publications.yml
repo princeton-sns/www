@@ -438,3 +438,76 @@
   venue: "Proc. 41st IEEE/IFIP International Conference on Dependable Systems and Networks, Dependable Computing and Communication Symposium (DCCS) track"
   paper: /assets/papers/2011-dsn-lloyd.pdf
   year: 2011
+
+
+- title: "Virtual Ring Routing Trends"
+  people:
+    - Dahlia Malkhi
+    - Siddhartha Sen
+    - Kunal Talwar
+    - Renato F. Werneck 
+    - Udi Wieder
+  venue: "In Proc. 23rd International Symposium on Distributed Computing (DISC '09), Elche, Spain"
+  year: 2009
+  paper: /assets/papers/2009-disc-walkhi.pdf
+
+- title: "Rethinking Enterprise Network Control"
+  people:
+    - Martin Casado
+    - Michael J. Freedman
+    - Justin Pettit
+    - Jianying Luo
+    - Natasha Gude
+    - Nick McKeown
+    - Scott Shenker
+  venue: "IEEE/ACM Transactions on Networking, Vol 17, Num 4. August 2009"
+  year: 2009
+  paper: /assets/papers/2009-ton-casado.pdf
+
+
+- title: "Scaling Virtual Worlds with a Physical Metaphor"
+  people:
+    - Daniel Horn
+    - Ewen Cheslack-Postava
+    - Tahir Azim
+    - Michael J. Freedman
+    - Philip Levis 
+  venue: "IEEE Pervasive Computing, Vol 8, Num 3. July-September 2009"
+  year: 2009
+  paper: /assets/papers/2009-pervasive-horn.pdf
+
+
+- title: "Object Storage on CRAQ: High-throughput chain replication for read-mostly workloads"
+  people:
+    - Jeff Terrace
+    - Michael J. Freedman      
+  venue: "In Proc. USENIX Annual Technical Conference (USENIX ’09), San Diego, CA, June 2009"
+  year: 2009
+  paper: /assets/papers/2009-atc-terrace.pdf
+  presentation: /assets/slides/2009-atc-terrace.pptx
+
+
+- title: "Collaborative, Privacy-Preserving Data Aggregation at Scale"
+  people:
+    - Haakon Ringberg
+    - Benny Applebaum
+    - Michael J. Freedman
+    - Matthew Caesar
+    - Jennifer Rexford
+  venue: "Cryptology ePrint Archive: Report 2009/180, April 2009"
+  year: 2009
+  paper: /assets/papers/2009-eprint-ringberg.pdf
+
+- title: "Bringing P2P to the Web: Security and Privacy in the Firecoral Network"
+  people:
+    - Jeff Terrace
+    - Harold Laidlaw
+    - Hao Eric Liu
+    - Sean Stern
+    - Michael J. Freedman
+  venue: "Proc. 8th International Workshop on Peer-to-Peer Systems, (IPTPS ’09) Boston, MA, April 2009"
+  year: 2009
+  paper: /assets/papers/2009-iptps-terrace.pdf
+  presentation: /assets/slides/2009-iptps-terrace.pptx
+
+
