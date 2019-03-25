@@ -152,7 +152,7 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~stafman/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/stafman.jpg
 
   - first_name: Theano
     last_name: Stavrinos
