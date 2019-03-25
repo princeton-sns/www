@@ -174,3 +174,61 @@
   venue: "In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014."
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
+
+- title: "Frenetic: A High-Level Language for OpenFlow Networks"
+  people:
+    - Nate Foster
+    - Rob Harrison
+    - Matthew L. Meola
+    - Michael J. Freedman
+    - Jennifer Rexford
+    - David Walker
+  venue: "In Proc. Workshop on Programmable Routers for Extensible Services of Tomorrow (PRESTO '10) Philadelphia, PA. November 2010."
+  paper: /assets/papers/2010-presto-foster.pdf
+  year: 2010
+
+- title: "SPORC: Group Collaboration using Untrusted Cloud Resources"
+  people:
+    - Ariel J. Feldman
+    - William P. Zeller
+    - Michael J. Freedman
+    - Edward W. Felten
+  venue: "In Proc. Symposium on Operating Systems Design and Implementation (OSDI '10) Vancouver, BC, October 2010."
+  paper: /assets/papers/2010-osdi-feldman.pdf
+  presentation: /assets/slides/2010-osdi-feldman.pdf
+  year: 2010
+
+- title: "Scalable Flow-Based Networking with DIFANE"
+  people:
+    - Minlan Yu
+    - Jennifer Rexford
+    - Michael J. Freedman
+    - Jia Wang
+  venue: "In Proc. ACM SIGCOMM Conference (SIGCOMM '10) New Delhi, India, August 2010."
+  paper: /assets/papers/2010-sigcomm-yu.pdf
+  presentation: /assets/slides/2010-sigcomm-yu.pdf
+  year: 2010
+
+- title: "DONAR: Decentralized Server Selection for Cloud Services"
+  people:
+    - Patrick Wendell
+    - Joe Wenjie Jiang
+    - Michael J. Freedman
+    - Jennifer Rexford
+  venue: "In Proc. ACM SIGCOMM Conference (SIGCOMM '10) New Delhi, India, August 2010."
+  paper: /assets/papers/2010-sigcomm-wendell.pdf
+  presentation: /assets/slides/2010-sigcomm-wendell.pdf
+  year: 2010
+
+- title: "Collaborative, Privacy-Preserving Data Aggregation at Scale"
+  people:
+    - Benny Applebaum
+    - Haakon Ringberg
+    - Michael J. Freedman
+    - Matthew Caesar
+    - Jennifer Rexford
+  venue: "In Proc. 10th Privacy Enhancing Technologies Symposium (PET '10) Berlin, Germany, July 2010."
+  paper: /assets/papers/2010-pet-applebaum.pdf
+  presentation: /assets/slides/2010-pet-applebaum.pdf
+  year: 2010
+  
