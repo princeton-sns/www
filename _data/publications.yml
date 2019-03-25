@@ -389,3 +389,52 @@
   venue: "NSDI"
   paper: /assets/papers/2010-nsdi-sen.pdf
   year: 2010
+
+- title: "Frenetic: A Network Programming Language"
+  people:
+    - Nate Foster
+    - Rob Harrison
+    - mfreed
+    - Christopher Monsanto
+    - Jennifer Rexford
+    - Alec Story
+    - David Walker
+  venue: "ICFP"
+  paper: /assets/papers/2011-icfp-foster.pdf
+  year: 2011
+
+- title: "Commensal Cuckoo: Secure Group Partitioning for Large-Scale Services"
+  people:
+    - Siddhartha Sen
+    - mfreed
+  venue: "Proc. 5th Workshop on Large Scale Distributed Systems and Middleware"
+  paper: /assets/papers/2011-ladis-sen.pdf
+  year: 2011
+
+- title: "Hiding Amongst the Clouds: A Proposal for Cloud-based Onion Routing"
+  people:
+    - Nicholas Jones
+    - Matvey Arye
+    - Jacopo Cesareo
+    - mfreed
+  venue: "Proc. USENIX Workshop on Free and Open Communications on the Internet"
+  paper: /assets/papers/2011-foci-jones.pdf
+  year: 2011
+
+- title: "Identifying Performance Bottlenecks in CDNs through TCP-Level Monitoring"
+  people:
+    - Peng Sun
+    - Minlan Yu
+    - mfreed
+    - Jennifer Rexford
+  venue: "Proc. ACM SIGCOMM Workshop on Measurements Up the STack"
+  paper: /assets/papers/2011-wmust-sun.pdf
+  year: 2011
+
+- title: "Coercing Clients into Facilitating Failover for Object Delivery"
+  people:
+    - wlloyd
+    - mfreed
+  venue: "Proc. 41st IEEE/IFIP International Conference on Dependable Systems and Networks, Dependable Computing and Communication Symposium (DCCS) track"
+  paper: /assets/papers/2011-dsn-lloyd.pdf
+  year: 2011
