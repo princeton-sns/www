@@ -510,4 +510,65 @@
   paper: /assets/papers/2009-iptps-terrace.pdf
   presentation: /assets/slides/2009-iptps-terrace.pptx
 
+- title: "Going Viral: Flash Crowds in an Open CDN"
+  people:
+    - Pattrick Wendell
+    - Michael J. Freedman
+  venue: "Proc. ACM SIGCOMM Internet Measurement Conference"
+  year: 2011
+  paper: /assets/papers/2011-imc-wendell.pdf
+  presentation: /assets/slides/2011-imc-wendell.pdf
+
+- title: "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS"
+  people:
+    - Wyatt Lloyd
+    - Michael J. Freedman
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: "Proc. 23rd ACM Symposium on Operating Systems Principles"
+  year: 2011
+  paper: /assets/papers/2011-sosp-lloyd.pdf
+  presentation: /assets/slides/2011-sosp-lloyd.pptx
+
+- title: "Bilateral and Multilateral Exchanges for Peer-Assisted Content Distribution"
+  people:
+    - Christina Aperjis
+    - Ramesh Johari
+    - Michael J. Freedman
+  venue: "IEEE/ACM Transactions on Networking"
+  year: 2011
+  paper: /assets/papers/2011-tonaperjis.pdf
+
+- title: "Online Learning for Mixed Membership Network Models (Extended Abstract)"
+  people:
+    - Prem Gopalan
+    - David Mimno
+    - Michael J. Freedman
+    - David M. Blei
+  venue: "Proc. 6th Annual Machine Learning Symposium, The New York Academy of Sciences"
+  year: 2011
+  paper: /assets/papers/2011-nyas-gopalan.pdf
+
+- title: "Toward a Lightweight Model of BGP Safety"
+  people:
+    - Matvey Arye
+    - Rob Harrison
+    - Richard Wang
+    - Pamela Zave
+    - Jennifer Rexford
+  venue: "Workshop on Rigorous Protocol Engineering"
+  year: 2011
+  paper: /assets/papers/2011-wripe-arye.pdf
+
+- title: "Bridging the Theory-Practice Gap in Multi-Commodity Flow Routing (Brief Announcement)"
+  people:
+    - Siddhartha Sen, , 
+    - Sunghwan Ihm
+    - Kay Ousterhout
+    - Michael J. Freedman
+  venue: "Proc. 25th International Symposium on DIStributed Computing"
+  year: 2011
+  paper: /assets/papers/2011-disc-sen.pdf
+
+
 
