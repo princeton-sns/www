@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publications
+permalink: /publications/
 ---
 
 {%- assign publications = site.data.publications | sort: "year" | reverse -%}

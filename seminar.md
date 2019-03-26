@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lunch Seminar
-permalink: /seminar
+permalink: /seminar/
 ---
 
 {% capture now %}

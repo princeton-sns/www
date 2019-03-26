@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects
+permalink: /projects/
 ---
 
 {%- assign active = site.data.projects | where: "active", true -%}
