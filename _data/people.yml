@@ -135,8 +135,8 @@
     nick: melara
     type: phd
     active: true
-    url: http://www.cs.princeton.edu/~melara/
-    picture: /assets/img/people/placeholder.png
+    url: http://masomel.info
+    picture: /assets/img/people/melara.jpg
 
   - first_name: Khiem
     last_name: Ngo
