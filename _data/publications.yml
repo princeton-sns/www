@@ -214,6 +214,82 @@
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
 
+- title: "Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing"
+  people:
+    - Siddhartha Sen
+    - David Shue
+    - Sunghwan Ihm
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-sen.pdf
+  year: 2013
+
+- title: "Scaling IP Multicast on Datacenter Topologies"
+  people:
+    - Xiaozhou Li
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-li.pdf
+  year: 2013
+
+- title: "A Short Primer on Causal Consistency"
+  people:
+    - wlloyd
+    - mfreed
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: ";login: The USENIX Magazine, Vol 38, Number 4, August 2013."
+  paper: /assets/papers/2013-login-lloyd.pdf
+  year: 2013
+
+- title: "Making Every Bit Count in Wide-Area Analytics"
+  people:
+    - Ariel Rabkin
+    - Matvey Arye
+    - Siddhartha Sen
+    - Vivek Pai
+    - mfreed
+  venue: "Proc. 14th Workshop on Hot Topics on Operating Systems."
+  paper: /assets/papers/2013-hotos-rabkin.pdf
+  year: 2013
+
+- title: "Stronger Semantics for Low-Latency Geo-Replicated Storage"
+  people:
+    - wlloyd
+    - mfreed
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: "Proc. 10th Symposium on Networked Systems Design and Implementation."
+  paper: /assets/papers/2013-nsdi-lloyd.pdf
+  year: 2013
+
+- title: "Languages for software-defined networks"
+  people:
+    - Nate Foster
+    - mfreed
+    - Arjun Guha
+    - Rob Harrison
+    - Naga Praveen Katta
+    - Christopher Monsanto
+    - Joshua Reich
+    - Mark Reitblatt
+    - Jennifer Rexford
+    - Cole Schlesinger
+    - Alec Story
+    - David Walker
+  venue: "IEEE Communications Magazine, Vol 51, Num 2, February 2013."
+  paper: /assets/papers/2013-ieeecomm-foster.pdf
+  year: 2013
+
+- title: "Fairness and Isolation in Multi-Tenant Storage as Optimization Decomposition"
+  people:
+    - David Shue
+    - mfreed
+    - Anees Shaikh
+  venue: "ACM SIGOPS Operating System Review."
+  paper: /assets/papers/2013-osr-shue.pdf
+  year: 2013
+
 - title: "Privacy and Integrity are Possible in the Untrusted Cloud"
   people:
     - Ariel J. Feldman
