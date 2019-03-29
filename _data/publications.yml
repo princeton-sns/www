@@ -214,53 +214,13 @@
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
 
-- title: "Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing"
+- title: "Fairness and Isolation in Multi-Tenant Storage as Optimization Decomposition"
   people:
-    - Siddhartha Sen
     - David Shue
-    - Sunghwan Ihm
     - mfreed
-  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
-  paper: /assets/papers/2013-conext-sen.pdf
-  year: 2013
-
-- title: "Scaling IP Multicast on Datacenter Topologies"
-  people:
-    - Xiaozhou Li
-    - mfreed
-  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
-  paper: /assets/papers/2013-conext-li.pdf
-  year: 2013
-
-- title: "A Short Primer on Causal Consistency"
-  people:
-    - wlloyd
-    - mfreed
-    - Michael Kaminsky
-    - David G. Andersen
-  venue: ";login: The USENIX Magazine, Vol 38, Number 4, August 2013."
-  paper: /assets/papers/2013-login-lloyd.pdf
-  year: 2013
-
-- title: "Making Every Bit Count in Wide-Area Analytics"
-  people:
-    - Ariel Rabkin
-    - Matvey Arye
-    - Siddhartha Sen
-    - Vivek Pai
-    - mfreed
-  venue: "Proc. 14th Workshop on Hot Topics on Operating Systems."
-  paper: /assets/papers/2013-hotos-rabkin.pdf
-  year: 2013
-
-- title: "Stronger Semantics for Low-Latency Geo-Replicated Storage"
-  people:
-    - wlloyd
-    - mfreed
-    - Michael Kaminsky
-    - David G. Andersen
-  venue: "Proc. 10th Symposium on Networked Systems Design and Implementation."
-  paper: /assets/papers/2013-nsdi-lloyd.pdf
+    - Anees Shaikh
+  venue: "ACM SIGOPS Operating System Review."
+  paper: /assets/papers/2013-osr-shue.pdf
   year: 2013
 
 - title: "Languages for software-defined networks"
@@ -281,13 +241,54 @@
   paper: /assets/papers/2013-ieeecomm-foster.pdf
   year: 2013
 
-- title: "Fairness and Isolation in Multi-Tenant Storage as Optimization Decomposition"
+- title: "Stronger Semantics for Low-Latency Geo-Replicated Storage"
   people:
-    - David Shue
+    - wlloyd
     - mfreed
-    - Anees Shaikh
-  venue: "ACM SIGOPS Operating System Review."
-  paper: /assets/papers/2013-osr-shue.pdf
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: "Proc. 10th Symposium on Networked Systems Design and Implementation."
+  paper: /assets/papers/2013-nsdi-lloyd.pdf
+  presentation: /assets/slides/2013-nsdi-lloyd.pptx
+  year: 2013
+
+- title: "Making Every Bit Count in Wide-Area Analytics"
+  people:
+    - Ariel Rabkin
+    - Matvey Arye
+    - Siddhartha Sen
+    - Vivek Pai
+    - mfreed
+  venue: "Proc. 14th Workshop on Hot Topics on Operating Systems."
+  paper: /assets/papers/2013-hotos-rabkin.pdf
+  year: 2013
+
+- title: "A Short Primer on Causal Consistency"
+  people:
+    - wlloyd
+    - mfreed
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: ";login: The USENIX Magazine, Vol 38, Number 4, August 2013."
+  paper: /assets/papers/2013-login-lloyd.pdf
+  year: 2013
+
+- title: "Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing"
+  people:
+    - Siddhartha Sen
+    - David Shue
+    - Sunghwan Ihm
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-sen.pdf
+  year: 2013
+
+- title: "Scaling IP Multicast on Datacenter Topologies"
+  people:
+    - Xiaozhou Li
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-li.pdf
   year: 2013
 
 - title: "Privacy and Integrity are Possible in the Untrusted Cloud"
