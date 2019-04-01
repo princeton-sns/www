@@ -1,3 +1,27 @@
+- date: 2019-04-01
+  reason: "Colloquium speaker"
+- date: 2019-04-08
+  speaker: zhenyus
+  title: TBD
+  abstract: TBD
+- date: 2019-04-15
+  speaker: TBD
+  title: TBD
+  abstract: TBD
+- date: 2019-04-22
+  speaker: Yushan Su
+  title: TBD
+  abstract: TBD
+- date: 2019-04-29
+  speaker: jl87
+  title: TBD
+  abstract: TBD
+- date: 2019-05-06
+  speaker: TBD
+  title: TBD
+  abstract: TBD
+
+      # Past seminars
 - date: 2019-03-18
   reason: "Spring break!"
 - date: 2019-03-24
@@ -27,28 +51,3 @@
           implement a prototype of Sandpaper and demonstrate its effectiveness in
           mitigating performance interference. We further show that Sandpaper achieves
           high resource utilization with little performance overhead.
-- date: 2019-04-01
-  speaker: zhenyus
-  title: TBD
-  abstract: TBD
-- date: 2019-04-08
-  speaker: TBD
-  title: TBD
-  abstract: TBD
-- date: 2019-04-15
-  speaker: hl7
-  title: TBD
-  abstract: TBD
-- date: 2019-04-22
-  speaker: Yushan Su
-  title: TBD
-  abstract: TBD
-- date: 2019-04-29
-  speaker: jl87
-  title: TBD
-  abstract: TBD
-- date: 2019-05-06
-  speaker: theanos
-  title: TBD
-  abstract: TBD
-
