@@ -23,7 +23,7 @@ twitter_username: PrincetonSNS
 github_username:  princeton-sns
 
 # Blog posts
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 
 sass:
   style: compressed

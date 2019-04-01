@@ -5,29 +5,25 @@
     - Ergin Seyfe
     - Avery Ching
     - mfreed
-  venue: "Proceedings of the Thirteenth EuroSys Conference"
+  venue: "Proc. 13th European Conference on Computer Systems (EuroSys ’18) Porto, Portugal"
   year: 2018
-  paper: assets/papers/2018-riffle-zhang.pdf
+  paper: /assets/papers/2018-eurosys-zhang.pdf
+  presentation: /assets/slides/2018-eurosys-zhang.pdf
 
-- title: "Dynamic Multi-Clock Management for Embedded Systems"
+- title: "NetChain: Scale-Free Sub-RTT Coordination"
   people:
-    - Holly Chiang
-    - Daniel Giffin
-    - aalevy
-    - Philip Levis
-  venue: "Proceedings of the 16th ACM Conference on Embedded Networked Sensor Systems"
+    - Xin Jin
+    - Xiaozhou Li
+    - Haoyu Zhang
+    - Nate Foster
+    - Jeongkeun Lee
+    - Robert Soule
+    - Changhoon Kim
+    - Ion Stoica
   year: 2018
-  paper: assets/papers/2018-iot-chiang.pdf
-
-- title: "Don’t Talk Unless I Say So! Securing the Internet of Things With Default-Off Networking"
-  people:
-    - James Hong
-    - aalevy
-    - Laurynas Riliskis
-    - Philip Levis
-  venue: "2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation"
-  year: 2018
-  paper: assets/papers/2018-iot-hong.pdf
+  venue: "Proc. 15th USENIX Symposium on Networked Systems Design and Implementation (NSDI ’18) Renton, WA"
+  paper: /assets/papers/2018-nsdi-jin.pdf
+  presentation: /assets/slides/2018-nsdi-jin.pdf
 
 - title: "SVE: Distributed Video Processing at Facebook Scale"
   people:
@@ -132,6 +128,18 @@
   paper: /assets/papers/2017-nsdi-zhang.pdf
   presentation: /assets/slides/2017-nsdi-zhang.pdf
 
+- title: "The SNOW Theorem and Latency-Optimal Read-Only Transactions"
+  people:
+    - Haonan Lu
+    - Christopher Hodsdon
+    - Khiem Ngo
+    - Shuai Mu
+    - wlloyd
+  venue: "Proc. 12th Symposium on Operating Systems Design and Implementation (OSDI ’16), Savannah, GA, October 2016"
+  year: 2016
+  paper: /assets/papers/2016/osdi-lu.pdf
+  presentation: /assets/slides/2016/osdi-lu.pptx
+
 - title: "Replex: A Scalable, Highly Available Multi-Index Data Store"
   project: replex
   people:
@@ -205,6 +213,83 @@
   venue: "In Proc. IEEE Security and Privacy (SP ’14), San Jose, CA, May 2014."
   paper: http://sns.cs.princeton.edu/docs/passe-sp14-final.pdf
   year: 2014
+
+- title: "Fairness and Isolation in Multi-Tenant Storage as Optimization Decomposition"
+  people:
+    - David Shue
+    - mfreed
+    - Anees Shaikh
+  venue: "ACM SIGOPS Operating System Review."
+  paper: /assets/papers/2013-osr-shue.pdf
+  year: 2013
+
+- title: "Languages for software-defined networks"
+  people:
+    - Nate Foster
+    - mfreed
+    - Arjun Guha
+    - Rob Harrison
+    - Naga Praveen Katta
+    - Christopher Monsanto
+    - Joshua Reich
+    - Mark Reitblatt
+    - Jennifer Rexford
+    - Cole Schlesinger
+    - Alec Story
+    - David Walker
+  venue: "IEEE Communications Magazine, Vol 51, Num 2, February 2013."
+  paper: /assets/papers/2013-ieeecomm-foster.pdf
+  year: 2013
+
+- title: "Stronger Semantics for Low-Latency Geo-Replicated Storage"
+  people:
+    - wlloyd
+    - mfreed
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: "Proc. 10th Symposium on Networked Systems Design and Implementation."
+  paper: /assets/papers/2013-nsdi-lloyd.pdf
+  presentation: /assets/slides/2013-nsdi-lloyd.pptx
+  year: 2013
+
+- title: "Making Every Bit Count in Wide-Area Analytics"
+  people:
+    - Ariel Rabkin
+    - Matvey Arye
+    - Siddhartha Sen
+    - Vivek Pai
+    - mfreed
+  venue: "Proc. 14th Workshop on Hot Topics on Operating Systems."
+  paper: /assets/papers/2013-hotos-rabkin.pdf
+  year: 2013
+
+- title: "A Short Primer on Causal Consistency"
+  people:
+    - wlloyd
+    - mfreed
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: ";login: The USENIX Magazine, Vol 38, Number 4, August 2013."
+  paper: /assets/papers/2013-login-lloyd.pdf
+  year: 2013
+
+- title: "Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing"
+  people:
+    - Siddhartha Sen
+    - David Shue
+    - Sunghwan Ihm
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-sen.pdf
+  year: 2013
+
+- title: "Scaling IP Multicast on Datacenter Topologies"
+  people:
+    - Xiaozhou Li
+    - mfreed
+  venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
+  paper: /assets/papers/2013-conext-li.pdf
+  year: 2013
 
 - title: "Privacy and Integrity are Possible in the Untrusted Cloud"
   people:
@@ -389,3 +474,226 @@
   venue: "NSDI"
   paper: /assets/papers/2010-nsdi-sen.pdf
   year: 2010
+
+- title: "Frenetic: A Network Programming Language"
+  people:
+    - Nate Foster
+    - Rob Harrison
+    - mfreed
+    - Christopher Monsanto
+    - Jennifer Rexford
+    - Alec Story
+    - David Walker
+  venue: "ICFP"
+  paper: /assets/papers/2011-icfp-foster.pdf
+  year: 2011
+
+- title: "Commensal Cuckoo: Secure Group Partitioning for Large-Scale Services"
+  people:
+    - Siddhartha Sen
+    - mfreed
+  venue: "Proc. 5th Workshop on Large Scale Distributed Systems and Middleware"
+  paper: /assets/papers/2011-ladis-sen.pdf
+  year: 2011
+
+- title: "Hiding Amongst the Clouds: A Proposal for Cloud-based Onion Routing"
+  people:
+    - Nicholas Jones
+    - Matvey Arye
+    - Jacopo Cesareo
+    - mfreed
+  venue: "Proc. USENIX Workshop on Free and Open Communications on the Internet"
+  paper: /assets/papers/2011-foci-jones.pdf
+  year: 2011
+
+- title: "Identifying Performance Bottlenecks in CDNs through TCP-Level Monitoring"
+  people:
+    - Peng Sun
+    - Minlan Yu
+    - mfreed
+    - Jennifer Rexford
+  venue: "Proc. ACM SIGCOMM Workshop on Measurements Up the STack"
+  paper: /assets/papers/2011-wmust-sun.pdf
+  year: 2011
+
+- title: "Coercing Clients into Facilitating Failover for Object Delivery"
+  people:
+    - wlloyd
+    - mfreed
+  venue: "Proc. 41st IEEE/IFIP International Conference on Dependable Systems and Networks, Dependable Computing and Communication Symposium (DCCS) track"
+  paper: /assets/papers/2011-dsn-lloyd.pdf
+  year: 2011
+
+
+- title: "Virtual Ring Routing Trends"
+  people:
+    - Dahlia Malkhi
+    - Siddhartha Sen
+    - Kunal Talwar
+    - Renato F. Werneck 
+    - Udi Wieder
+  venue: "In Proc. 23rd International Symposium on Distributed Computing (DISC '09), Elche, Spain"
+  year: 2009
+  paper: /assets/papers/2009-disc-walkhi.pdf
+
+- title: "Rethinking Enterprise Network Control"
+  people:
+    - Martin Casado
+    - Michael J. Freedman
+    - Justin Pettit
+    - Jianying Luo
+    - Natasha Gude
+    - Nick McKeown
+    - Scott Shenker
+  venue: "IEEE/ACM Transactions on Networking, Vol 17, Num 4. August 2009"
+  year: 2009
+  paper: /assets/papers/2009-ton-casado.pdf
+
+
+- title: "Scaling Virtual Worlds with a Physical Metaphor"
+  people:
+    - Daniel Horn
+    - Ewen Cheslack-Postava
+    - Tahir Azim
+    - Michael J. Freedman
+    - Philip Levis 
+  venue: "IEEE Pervasive Computing, Vol 8, Num 3. July-September 2009"
+  year: 2009
+  paper: /assets/papers/2009-pervasive-horn.pdf
+
+
+- title: "Object Storage on CRAQ: High-throughput chain replication for read-mostly workloads"
+  people:
+    - Jeff Terrace
+    - Michael J. Freedman      
+  venue: "In Proc. USENIX Annual Technical Conference (USENIX ’09), San Diego, CA, June 2009"
+  year: 2009
+  paper: /assets/papers/2009-atc-terrace.pdf
+  presentation: /assets/slides/2009-atc-terrace.pptx
+
+
+- title: "Collaborative, Privacy-Preserving Data Aggregation at Scale"
+  people:
+    - Haakon Ringberg
+    - Benny Applebaum
+    - Michael J. Freedman
+    - Matthew Caesar
+    - Jennifer Rexford
+  venue: "Cryptology ePrint Archive: Report 2009/180, April 2009"
+  year: 2009
+  paper: /assets/papers/2009-eprint-ringberg.pdf
+
+- title: "Bringing P2P to the Web: Security and Privacy in the Firecoral Network"
+  people:
+    - Jeff Terrace
+    - Harold Laidlaw
+    - Hao Eric Liu
+    - Sean Stern
+    - Michael J. Freedman
+  venue: "Proc. 8th International Workshop on Peer-to-Peer Systems, (IPTPS ’09) Boston, MA, April 2009"
+  year: 2009
+  paper: /assets/papers/2009-iptps-terrace.pdf
+  presentation: /assets/slides/2009-iptps-terrace.pptx
+
+- title: "Going Viral: Flash Crowds in an Open CDN"
+  people:
+    - Pattrick Wendell
+    - Michael J. Freedman
+  venue: "Proc. ACM SIGCOMM Internet Measurement Conference"
+  year: 2011
+  paper: /assets/papers/2011-imc-wendell.pdf
+  presentation: /assets/slides/2011-imc-wendell.pdf
+
+- title: "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS"
+  people:
+    - Wyatt Lloyd
+    - Michael J. Freedman
+    - Michael Kaminsky
+    - David G. Andersen
+  venue: "Proc. 23rd ACM Symposium on Operating Systems Principles"
+  year: 2011
+  paper: /assets/papers/2011-sosp-lloyd.pdf
+  presentation: /assets/slides/2011-sosp-lloyd.pptx
+
+- title: "Bilateral and Multilateral Exchanges for Peer-Assisted Content Distribution"
+  people:
+    - Christina Aperjis
+    - Ramesh Johari
+    - Michael J. Freedman
+  venue: "IEEE/ACM Transactions on Networking"
+  year: 2011
+  paper: /assets/papers/2011-tonaperjis.pdf
+
+- title: "Online Learning for Mixed Membership Network Models (Extended Abstract)"
+  people:
+    - Prem Gopalan
+    - David Mimno
+    - Michael J. Freedman
+    - David M. Blei
+  venue: "Proc. 6th Annual Machine Learning Symposium, The New York Academy of Sciences"
+  year: 2011
+  paper: /assets/papers/2011-nyas-gopalan.pdf
+
+- title: "Toward a Lightweight Model of BGP Safety"
+  people:
+    - Matvey Arye
+    - Rob Harrison
+    - Richard Wang
+    - Pamela Zave
+    - Jennifer Rexford
+  venue: "Workshop on Rigorous Protocol Engineering"
+  year: 2011
+  paper: /assets/papers/2011-wripe-arye.pdf
+
+- title: "Bridging the Theory-Practice Gap in Multi-Commodity Flow Routing (Brief Announcement)"
+  people:
+    - Siddhartha Sen
+    - Sunghwan Ihm
+    - Kay Ousterhout
+    - Michael J. Freedman
+  venue: "Proc. 25th International Symposium on DIStributed Computing"
+  year: 2011
+  paper: /assets/papers/2011-disc-sen.pdf
+
+- title: "Towards Efficient Stream Processing at Global Scale"
+  people:
+    - Matvey Arye
+    - Siddhartha Sen
+    - Ariel Rabkin
+    - Michael J. Freedman
+  venue: "Proc. Large-Scale Distributed Systems and Middleware"
+  year: 2012
+  paper: /assets/papers/2012-ladis-arye.pdf
+
+- title: "Towards Predictable Multi-Tenant Shared Cloud Storage"
+  people:
+    - David Shue
+    - Michael J. Freedman
+    - Anees Shaikh
+  venue: "Proc. Large-Scale Distributed Systems and Middleware"
+  year: 2012
+  paper: /assets/papers/2012-ladis-shue.pdf
+
+- title: "On the Price of Equivocation in Byzantine Agreement"
+  people:
+    - Alexander Jaffe
+    - Siddhartha Sen
+    - Thomas Moscibroda
+  venue: "Proc. 31st ACM Symposium on Principles of Distributed Computing"
+  year: 2012
+  paper: /assets/papers/2012-podc-jaffe.pdf
+
+- title: "Unsupervised Conversion of 3D models for Interactive Metaverses"
+  people:
+    - Jeff Terrace
+    - Ewen Cheslack-Postava
+    - Philip Levis
+    - Michael J. Freedman
+  venue: "Proc. IEEE International Conference on Multimedia and Expo"
+  year: 2012
+  paper: /assets/papers/2012-icme-terrace.pdf
+  presentation: /assets/slides/2012-icme-terrace.pdf
+
+
+
+

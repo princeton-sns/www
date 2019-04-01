@@ -72,22 +72,22 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~andrewor/
-    picture: /assets/img/people/andrewor.png
+    picture: /assets/img/people/andrewor.jpg
 
-  - first_name: Chris
+  - first_name: Christopher
     last_name: Hodsdon
     nick: chodsdon
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~chodsdon/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/chodsdon.jpg
 
   - first_name: Sam
     last_name: Ginzburg
     nick: ginzburg
     type: phd
     active: true
-    url: http://www.cs.princeton.edu/~ginzburg/
+    url: http://www.samginzburg.com
     picture: /assets/img/people/placeholder.png
 
   - first_name: Haonan
@@ -120,7 +120,7 @@
     type: msc
     active: true
     url: \#
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/jennifer.jpeg
 
   - first_name: Joseph
     last_name: Eichenhofer
@@ -135,8 +135,8 @@
     nick: melara
     type: phd
     active: true
-    url: http://www.cs.princeton.edu/~melara/
-    picture: /assets/img/people/placeholder.png
+    url: http://masomel.info
+    picture: /assets/img/people/melara.jpg
 
   - first_name: Khiem
     last_name: Ngo
@@ -144,7 +144,7 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~qngo/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/qngo.jpg
 
   - first_name: Logan
     last_name: Stafman
@@ -168,7 +168,7 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~yuetan/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/yuetan.jpg
 
   - first_name: Zhenyu
     last_name: Song
@@ -176,7 +176,7 @@
     type: phd
     active: true
     url: http://www.cs.princeton.edu/~zhenyus/
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/zhenyus.jpg
 
   - first_name: Ashwini
     last_name: Raina
