@@ -198,8 +198,8 @@
 
   - first_name: Natalie
     last_name: Popescu
-    nick: nataliepopescu
+    nick: npopescu
     type: phd
     active: true
-    url: http://www.cs.princeton.edu/~npopescu/
+    url: https://www.cs.princeton.edu/~npopescu/
     picture: /assets/img/people/npopescu.png
