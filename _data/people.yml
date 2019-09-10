@@ -1,4 +1,4 @@
-# Database of people currently and formerly in SNS 
+# Database of people currently and formerly in SNS
 #
 # Example active person:
 #
@@ -203,3 +203,11 @@
     active: true
     url: https://www.cs.princeton.edu/~npopescu/
     picture: /assets/img/people/npopescu.png
+
+  - first_name: Pi
+    last_name: Songkuntham
+    nick: pisong
+    type: phd
+    active: true
+    url: https://www.cs.princeton.edu/~pisong/
+    picture: /assets/img/people/placeholder.png
