@@ -94,7 +94,7 @@
     last_name: Lu
     nick: haonanl
     type: phd
-    active: true
+    active: false
     url: http://www.cs.princeton.edu/~haonanl/
     picture: /assets/img/people/placeholder.png
 
@@ -111,7 +111,7 @@
     nick: jhelt
     type: phd
     active: true
-    url: http://www.cs.princeton.edu/~jhelt/
+    url: http://www.jeffreyhelt.com/
     picture: /assets/img/people/jhelt.jpg
 
   - first_name: Jennifer
@@ -134,7 +134,7 @@
     last_name: Melara
     nick: melara
     type: phd
-    active: true
+    active: false
     url: http://masomel.info
     picture: /assets/img/people/melara.jpg
 
@@ -150,7 +150,7 @@
     last_name: Stafman
     nick: stafman
     type: phd
-    active: true
+    active: false
     url: http://www.cs.princeton.edu/~stafman/
     picture: /assets/img/people/stafman.jpg
 
@@ -211,3 +211,12 @@
     active: true
     url: https://www.cs.princeton.edu/~pisong/
     picture: /assets/img/people/placeholder.png
+
+  - first_name: Jianan
+    last_name: Lu
+    nick: jiananl
+    type: phd
+    active: true
+    url: https://www.cs.princeton.edu/~jiananl/
+    picture: /assets/img/people/placeholder.png
+
