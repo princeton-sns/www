@@ -4,5 +4,5 @@
 with pkgs;
 stdenv.mkDerivation {
   name = "sns-site";
-  buildInputs = [ jekyll ruby ];
+  buildInputs = [ jekyll ruby bundler ];
 }
