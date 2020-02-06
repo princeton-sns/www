@@ -158,40 +158,21 @@ body > main, body > article {
 //
 // Alumni have an additional row for their graduation year and current
 // affiliation.
-ul.people {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
-  li {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    width: fit-content;
-    p {
-      display: grid;
-      text-align: center;
-      > * {
-        display: block;
-      }
+.people h3 {
+    margin-top: 1em;
+}
+
+.person {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    img {
+        height: 5em;
     }
 
-    p:first-of-type {
-      text-align: left;
-      grid-template-columns: 6em auto;
-      grid-template-areas: "img name" ". .";
-      img {
-        grid-area: img;
-        vertical-align: middle;
-	height: 5em;
-        border-radius: 100%;
-        margin-right: 1em;
-      }
-      a {
-        grid-area: name;
+    a {
         line-height: 1em;
-	margin: auto 0;
-      }
     }
-  }
 }
 
 // Publications are structured like so:
