@@ -162,6 +162,12 @@ body > main, body > article {
     margin-top: 1em;
 }
 
+.people ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
 .person {
     margin-top: 1em;
 
