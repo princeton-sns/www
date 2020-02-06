@@ -10,85 +10,35 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 
 
 {%- assign leaders = site.data.people | where: "type", "leader" | where: "active", "true" | sort: "last_name" %}
+{%- assign postdocs = site.data.people | where: "type", "postdoc" | where: "active", "true" | sort: "last_name" %}
 {%- assign phds = site.data.people | where: "type", "phd" | where: "active", "true" | sort: "last_name" %}
 {%- assign mscs = site.data.people | where: "type", "msc" | where: "active", "true" | sort: "last_name" %}
 {%- assign past = site.data.people | where: "active", "false" | sort: "last_name" %}
 
 <div class="container-fluid people">
+    {% include people_header.html header="Faculty" %}
+    {% include people.html people=leaders %}
 
-    <div class="row">
-        <div class="col">
-            <h3>Faculty</h3>
-        </div>
-    </div>
-    <div class="row">
-        {% for person in leaders %}
-        <div class="col-4 person">
-            <div class="row no-gutters">
-                <div class="col d-flex justify-content-center">
-                    <img src="{{ person.picture }}" class="rounded-circle" alt="">
-                </div>
-                <div class="col d-flex align-items-center">
-                    <a href="{{ person.url }}">{{person.first_name}} {{person.last_name}}</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
+    {% include people_header.html header="Postdocs" %}
+		{% include people.html people=postdocs %}
 
+    {% include people_header.html header="PhD Students" %}
+		{% include people.html people=phds %}
 
-<div class="row">
-    <div class="col">
-        <h3>PhD Students</h3>
-    </div>
-</div>
-<div class="row people">
-    {% for person in phds %}
-    <div class="col-4 person">
-        <div class="row no-gutters">
-            <div class="col d-flex justify-content-center">
-                <img src="{{ person.picture }}" class="rounded-circle" alt="">
-            </div>
-            <div class="col d-flex align-items-center">
-                <a href="{{ person.url }}">{{person.first_name}} {{person.last_name}}</a>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
+    {% include people_header.html header="Master's Students" %}
+		{% include people.html people=mscs %}
 
-<div class="row">
-    <div class="col">
-        <h3>Master's Students</h3>
-    </div>
-</div>
-<div class="row people">
-    {% for person in mscs %}
-    <div class="col-4 person">
-        <div class="row no-gutters">
-            <div class="col d-flex justify-content-center">
-                <img src="{{ person.picture }}" class="rounded-circle" alt="">
-            </div>
-            <div class="col d-flex align-items-center">
-                <a href="{{ person.url }}">{{person.first_name}} {{person.last_name}}</a>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-
-<div class="row">
-    <div class="col">
-        <h3>Alumni</h3>
-    </div>
-</div>
-<div class="row">
-    <div class="col">
-        <ul>
-            {% for person in past %}
-            <li><a href="{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.type }})</li>
-            {% endfor %}
-        </ul>
-    </div>
+    {% include people_header.html header="Alumni" %}
+		<div class="row">
+		    <div class="col">
+		        <ul>
+		            {% for person in past %}
+		            <li>
+                    <a href="{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+                </li>
+		            {% endfor %}
+		        </ul>
+		    </div>
+		</div>
 </div>
 

@@ -93,8 +93,8 @@
   - first_name: Haonan
     last_name: Lu
     nick: haonanl
-    type: phd
-    active: false
+    type: postdoc
+    active: true
     url: http://www.cs.princeton.edu/~haonanl/
     picture: /assets/img/people/placeholder.png
 
