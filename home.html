@@ -13,7 +13,7 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 {%- assign postdocs = site.data.people | where: "type", "postdoc" | where: "active", "true" | sort: "last_name" %}
 {%- assign phds = site.data.people | where: "type", "phd" | where: "active", "true" | sort: "last_name" %}
 {%- assign mscs = site.data.people | where: "type", "msc" | where: "active", "true" | sort: "last_name" %}
-{%- assign past = site.data.people | where: "active", "false" | sort: "last_name" %}
+{%- assign past = site.data.people | where: "active", "false" | sort: "graduated" | reverse %}
 
 <div class="container-fluid people">
     {% include people_header.html header="Faculty" %}
