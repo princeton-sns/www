@@ -40,21 +40,6 @@ body > footer {
   background-color: $secondary-bg-color;
   color: $secondary-fg-color;
   padding: 2em 3em;
-  ol {
-    margin: 0 auto;
-    width: fit-content;
-    list-style: none;
-    padding: 0;
-    li {
-      &:after {
-        content: " | ";
-      }
-      &:last-child:after {
-        content: "";
-      }
-      display: inline;
-    }
-  }
   a, a:hover, a:focus, a:active {
     color: $secondary-fg-color;
   }
@@ -101,35 +86,31 @@ body > header {
 // Links rendered in main font color normally, switching to Princeton black
 // with Princeton orange font when hovering or active.
 nav {
-  grid-area: nav;
-  display: grid;
-  grid-template-columns: $desktop;
-  grid-template-areas: "items";
-  margin: 0;
-  background-color: $secondary-light-bg-color;
-  ol {
-    grid-area: items;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    li {
-      display: inline-block;
-      text-align: center;
-      a {
-        display: inline-block;
-        color: $main-color;
-        text-decoration: none;
-        font-size: 1em;
-        padding: 1em 1.45em;
+    grid-area: nav;
+    background-color: $secondary-light-bg-color;
+}
 
-        &:hover {
-          background-color: $secondary-bg-color;
-          color: $secondary-fg-color;
-          text-decoration: none;
-        }
-      }
+.nav-link {
+    color: $main-color !important;
+    text-decoration: none;
+    &:hover {
+        color: $secondary-fg-color !important;
     }
-  }
+}
+
+.row.vertical-divider {
+    overflow: hidden;
+}
+.row.vertical-divider > div[class^="col"] {
+    text-align: center;
+    border-left: 1px solid $secondary-fg-color;
+    border-right: 1px solid $secondary-fg-color;
+}
+.row.vertical-divider div[class^="col"]:first-child {
+    border-left: none;
+}
+.row.vertical-divider div[class^="col"]:last-child {
+    border-right: none;
 }
 
 // Basic main content styling
