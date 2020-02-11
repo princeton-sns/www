@@ -2,12 +2,14 @@
 layout: page
 permalink: /
 ---
-
-This is the home page of the Princeton S* Network Systems (SNS) group within
-Princeton’s <a href="http://www.cs.princeton.edu/">Computer Science Department</a>. The
-undefined S* — Scalable, Secure, Self-Organizing, Self-Managing,
-Service-centric, Storage-based — characterizes the broad scope of our research.
-
+<div class="row">
+    <p class="col">
+    This is the home page of the Princeton S* Network Systems (SNS) group within
+    Princeton’s <a href="http://www.cs.princeton.edu/">Computer Science Department</a>. The
+    undefined S* — Scalable, Secure, Self-Organizing, Self-Managing,
+    Service-centric, Storage-based — characterizes the broad scope of our research.
+    </p>
+</div>
 
 {%- assign leaders = site.data.people | where: "type", "leader" | where: "active", "true" | sort: "last_name" %}
 {%- assign postdocs = site.data.people | where: "type", "postdoc" | where: "active", "true" | sort: "last_name" %}
@@ -15,30 +17,23 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 {%- assign mscs = site.data.people | where: "type", "msc" | where: "active", "true" | sort: "last_name" %}
 {%- assign past = site.data.people | where: "active", "false" | sort: "graduated" | reverse %}
 
-<div class="container-fluid people">
-    {% include people_header.html header="Faculty" %}
-    {% include people.html people=leaders %}
+{% include people_header.html header="Faculty" %}
+{% include people.html people=leaders %}
 
-    {% include people_header.html header="Postdocs" %}
-		{% include people.html people=postdocs %}
+{% include people_header.html header="Postdocs" %}
+{% include people.html people=postdocs %}
 
-    {% include people_header.html header="PhD Students" %}
-		{% include people.html people=phds %}
+{% include people_header.html header="PhD Students" %}
+{% include people.html people=phds %}
 
-    {% include people_header.html header="Master's Students" %}
-		{% include people.html people=mscs %}
+{% include people_header.html header="Master's Students" %}
+{% include people.html people=mscs %}
 
-    {% include people_header.html header="Alumni" %}
-		<div class="row">
-		    <div class="col">
-		        <ul>
-		            {% for person in past %}
-		            <li>
-                    <a href="{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-                </li>
-		            {% endfor %}
-		        </ul>
-		    </div>
-		</div>
-</div>
-
+{% include people_header.html header="Alumni" %}
+<ul class="row">
+    {% for person in past %}
+    <li class="list-item col-4">
+        <a href="{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+    </li>
+    {% endfor %}
+</ul>

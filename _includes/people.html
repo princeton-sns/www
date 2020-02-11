@@ -1,11 +1,11 @@
-<div class="row people">
+<div class="row">
     {% for person in include.people %}
-    <div class="col-4 person">
-        <div class="row no-gutters">
-            <div class="col d-flex justify-content-center">
+    <div class="col-4 person my-2">
+        <div class="row no-gutters d-flex align-items-center">
+            <div class="col text-center ">
                 <img src="{{ person.picture }}" class="rounded-circle" alt="">
             </div>
-            <div class="col d-flex align-items-center">
+            <div class="col text-md-left text-center">
                 <a href="{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
             </div>
         </div>

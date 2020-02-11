@@ -4,16 +4,6 @@ html {
 
 body {
   font-family: $body-font;
-  line-height: 1.5;
-  display: grid;
-  max-width: $desktop;
-  margin: 0 auto;
-  grid-template-columns: auto ($tablet - 160px) auto;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "footer";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,10 +26,8 @@ ul {
 
 // Website footer is a modified Princeton orange on Princeton black
 body > footer {
-  grid-area: footer;
   background-color: $secondary-bg-color;
   color: $secondary-fg-color;
-  padding: 2em 3em;
   a, a:hover, a:focus, a:active {
     color: $secondary-fg-color;
   }
@@ -50,33 +38,16 @@ body > footer {
 // Text centered, with group name in bigger bold on top and tag line below in
 // slightly smaller font. Top and bottom margins match group name font size.
 body > header {
-  display: grid;
-  grid-area: header;
-  grid-template-columns: $desktop;
-  grid-row-gap: 1em;
-  grid-template-areas:
-    "masthead"
-    "tagline";
-
   background-color: $primary-bg-color;
-  background-size: auto 100%;
-  padding-top: 3.75em;
-  padding-bottom: 3.75em;
 
   h1 {
-    grid-area: masthead;
     font-family: $masthead-font;
-    margin: 0 auto;
     font-size: 3.75em;
   }
 
   h2 {
-    grid-area: tagline;
-    margin: 0 auto;
     font-family: $body-font;
     font-size: 1.5em;
-    font-weight: 300;
-    font-style: italic;
   }
 }
 
@@ -86,7 +57,6 @@ body > header {
 // Links rendered in main font color normally, switching to Princeton black
 // with Princeton orange font when hovering or active.
 nav {
-    grid-area: nav;
     background-color: $secondary-light-bg-color;
 }
 
@@ -115,10 +85,6 @@ nav {
 
 // Basic main content styling
 body > main, body > article {
-  grid-area: content;
-  padding-left: 5em;
-  padding-right: 5em;
-  padding-top: 1em;
 
   h1 {
     font-size: 3em;
@@ -139,19 +105,8 @@ body > main, body > article {
 //
 // Alumni have an additional row for their graduation year and current
 // affiliation.
-.people h3 {
-    margin-top: 1em;
-}
-
-.people ul {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-}
 
 .person {
-    margin-top: 1em;
-
     img {
         height: 5em;
     }
