@@ -56,6 +56,16 @@
     url: https://aaron.blankstein.com/
     picture: /assets/img/people/ablankst.jpg
 
+  - first_name: Haoyu (Harris)
+    last_name: Zhang
+    nick: hzhang
+    type: phd
+    active: false
+    graduated: 2018
+    now: Google Brain
+    url: https://haoyuzhang.org/
+    picture: /assets/img/people/placeholder.jpg
+
   - first_name: Amy
     last_name: Tai
     nick: amytai
@@ -63,7 +73,7 @@
     active: false
     graduated: 2018
     now: VMWare Research
-    url: http://www.cs.princeton.edu/~amytai/
+    url: https://amytai.github.io/
     picture: /assets/img/people/amytai.jpg
 
   - first_name: Andrew
@@ -93,8 +103,8 @@
   - first_name: Haonan
     last_name: Lu
     nick: haonanl
-    type: phd
-    active: false
+    type: postdoc
+    active: true
     url: http://www.cs.princeton.edu/~haonanl/
     picture: /assets/img/people/placeholder.png
 
@@ -135,6 +145,7 @@
     nick: melara
     type: phd
     active: false
+    graduated: 2019
     url: http://masomel.info
     picture: /assets/img/people/melara.jpg
 
@@ -151,7 +162,8 @@
     nick: stafman
     type: phd
     active: false
-    url: http://www.cs.princeton.edu/~stafman/
+    graduated: 2019
+    url: http://stafman.com/
     picture: /assets/img/people/stafman.jpg
 
   - first_name: Theano
@@ -193,7 +205,7 @@
     active: false
     graduated: 2013
     now: Microsoft Research
-    url: http://www.cs.princeton.edu/~sssix
+    url: http://sidsen.azurewebsites.net/
     picture: /assets/img/people/sssix.png
 
   - first_name: Natalie
@@ -218,5 +230,65 @@
     type: phd
     active: true
     url: https://www.cs.princeton.edu/~jiananl/
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Jeff
+    last_name: Terrace
+    nick: jterrace
+    type: phd
+    active: false
+    graduated: 2012
+    now: Google
+    url: http://jeffterrace.com/
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: David
+    last_name: Shue
+    nick: dshue
+    type: phd
+    active: false
+    graduated: 2014
+    now: Google
+    url: https://www.linkedin.com/in/david-shue-65686b66
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Prem
+    last_name: Gopalam
+    nick: pgopalam
+    type: phd
+    active: false
+    graduated: 2014
+    now: Voleon Capital Management
+    url: 
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Rob
+    last_name: Kiefer
+    nick: rkiefer
+    type: phd
+    active: false
+    graduated: 2016
+    now: Timescale
+    url: 
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Xiaozhou
+    last_name: Li
+    nick: xli
+    type: phd
+    active: false
+    graduated: 2016
+    now: Celer Network
+    url: https://www.xiaozhouli.org/
+    picture: /assets/img/people/placeholder.png
+
+  - first_name: Matvey
+    last_name: Arye
+    nick: marye
+    type: phd
+    active: false
+    graduated: 2016
+    now: Timescale
+    url: https://www.linkedin.com/in/matvey-arye-70a270b5
     picture: /assets/img/people/placeholder.png
 
