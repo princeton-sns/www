@@ -19,6 +19,15 @@
   paper: https://sunnyszy.github.io/assets/files/nsdi2020_lrb.pdf
   presentation: https://www.usenix.org/conference/nsdi20/presentation/song
 
+- title: "Gryff: Unifying Consensus and Shared Registers"
+  people:
+    - Matthew Burke
+    - Audrey Cheng
+    - wlloyd
+  venue: "In Proc. 17th Symposium on Networked Systems Design and Implementation (NSDI '20), Boston, MA"
+  year: 2020
+  paper: /assets/papers/2020-nsdi-burke.pdf
+
 - title: "ReLAQS: Reducing Latency for Multi-Tenant Approximate Queries via Scheduling"
   people:
     - stafman
