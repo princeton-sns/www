@@ -8,9 +8,20 @@
   paper: /assets/papers/2020-mlsys-or.pdf
   presentation: /assets/slides/2020-mlsys-or.pdf
 
+- title: "ReLAQS: Reducing Latency for Multi-Tenant Approximate Queries via Scheduling"
+  people:
+    - stafman
+    - andrewor
+    - mfreed
+  venue: "Proc. 20th International Middleware Conference (Middleware '19) Davis, CA"
+  year: 2019
+  paper: /assets/papers/2019-middleware-stafman.pdf
+  award:
+    - Best Paper Award
+
 - title: "Riffle: Optimized shuffle service for large-scale data analytics"
   people:
-    - Haoyu Zhang
+    - hzhang
     - Brian Cho
     - Ergin Seyfe
     - Avery Ching
@@ -23,8 +34,8 @@
 - title: "NetChain: Scale-Free Sub-RTT Coordination"
   people:
     - Xin Jin
-    - Xiaozhou Li
-    - Haoyu Zhang
+    - xli
+    - hzhang
     - Nate Foster
     - Jeongkeun Lee
     - Robert Soule
@@ -60,8 +71,8 @@
 - title: "NetCache: Balancing Key-Value Stores with Fast In-Network Caching"
   people:
     - Xin Jin
-    - Xiaozhou Li
-    - Haoyu Zhang
+    - xli
+    - hzhang
     - Robert Soule
     - Nate Foster
     - Jeongkeun Lee
@@ -74,9 +85,9 @@
 
 - title: "SLAQ: Quality-Driven Scheduling for Distributed Machine Learning"
   people:
-    - Haoyu Zhang
-    - Logan Stafman
-    - Andrew Or
+    - hzhang
+    - stafman
+    - andrewor
     - mfreed
   venue: "In Proc. ACM Symposium on Cloud Computing (SoCC '17), Santa Clara, CA"
   year: 2017
@@ -105,7 +116,7 @@
     - Qi Huang
     - Amit Puntambekar
     - Ymir Vigfusson
-    - Wyatt Lloyd
+    - wlloyd
     - Kai Li
   venue: "In Proc. 2017 USENIX Annual Technical Conference (ATC '17), Santa Clara, CA"
   year: 2017
@@ -119,7 +130,7 @@
     - Natacha Crooks
     - Lorenzo Alvisi
     - Nathan Bronson
-    - Wyatt Lloyd
+    - wlloyd
   venue: "In Proc. 14th Symposium on Networked Systems Design and Implementation (NSDI '17), Boston, MA"
   year: 2017
   paper: /assets/papers/2017-nsdi-mehdi.pdf
@@ -127,7 +138,7 @@
 
 - title: "Live Video Analytics at Scale with Approximation and Delay-Tolerance"
   people:
-    - Haoyu Zhang
+    - hzhang
     - Ganesh Ananthanarayanan
     - Peter Bodik
     - Matthai Philipose
@@ -140,9 +151,9 @@
 
 - title: "The SNOW Theorem and Latency-Optimal Read-Only Transactions"
   people:
-    - Haonan Lu
-    - Christopher Hodsdon
-    - Khiem Ngo
+    - haonanl
+    - chodsdon
+    - qngo
     - Shuai Mu
     - wlloyd
   venue: "Proc. 12th Symposium on Operating Systems Design and Implementation (OSDI ’16), Savannah, GA, October 2016"
@@ -167,7 +178,7 @@
 
 - title: "Existential Consistency: Measuring and Understanding Consistency at Facebook"
   people:
-    - Haonan Lu
+    - haonanl
     - Kaushik Veeraraghavan
     - Philippe Ajoux
     - Jim Hunt
@@ -194,8 +205,8 @@
 
 - title: "CONIKS: Bringing Key Transparency to End Users"
   people:
-    - Marcela S. Melara
-    - Aaron Blankstein
+    - melara
+    - ablankst
     - Joseph Bonneau
     - Edward W. Felten
     - mfreed
@@ -208,7 +219,7 @@
 - title: "Ravana: Controller Fault-Tolerance in Software-Defined Networking"
   people:
     - Naga Katta
-    - Haoyu Zhang
+    - hzhang
     - mfreed
     - Jennifer Rexford
   venue: "Proc. ACM Sigcomm Symposium on SDN Research (SOSR '15) Santa Clara, CA, June 2015."
@@ -226,7 +237,7 @@
 
 - title: "Fairness and Isolation in Multi-Tenant Storage as Optimization Decomposition"
   people:
-    - David Shue
+    - dshue
     - mfreed
     - Anees Shaikh
   venue: "ACM SIGOPS Operating System Review."
@@ -265,8 +276,8 @@
 - title: "Making Every Bit Count in Wide-Area Analytics"
   people:
     - Ariel Rabkin
-    - Matvey Arye
-    - Siddhartha Sen
+    - marye
+    - sssix
     - Vivek Pai
     - mfreed
   venue: "Proc. 14th Workshop on Hot Topics on Operating Systems."
@@ -285,8 +296,8 @@
 
 - title: "Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing"
   people:
-    - Siddhartha Sen
-    - David Shue
+    - sssix
+    - dshue
     - Sunghwan Ihm
     - mfreed
   venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
@@ -295,7 +306,7 @@
 
 - title: "Scaling IP Multicast on Datacenter Topologies"
   people:
-    - Xiaozhou Li
+    - xli
     - mfreed
   venue: "Proc. 9th Intl Conference on emerging Networking EXperiments and Technologies."
   paper: /assets/papers/2013-conext-li.pdf
@@ -304,8 +315,8 @@
 - title: "Privacy and Integrity are Possible in the Untrusted Cloud"
   people:
     - Ariel J. Feldman
-    - Aaron Blankstein
-    - Michael J. Freedman
+    - ablankst
+    - mfreed
     - Edward W. Felten
   venue: "In Proc. IEEE Data Engineering Bulletin Vol 35, Num 4, December 2012."
   paper: /assets/papers/2012-deb-feldman.pdf
@@ -313,11 +324,11 @@
 
 - title: "Increasing network resilience through edge diversity in NEBULA"
   people:
-    - Matvey Arye
-    - Robert Kiefer
+    - marye
+    - rkiefer
     - Kyle Super
     - Erik Nordstrom
-    - Michael J. Freedman
+    - mfreed
     - Eric Keller
     - Tom Rondeau
     - Jonathan M. Smith
@@ -330,7 +341,7 @@
     - Prem Gopalan
     - David Mimno
     - Sean Gerrish
-    - Michael J. Freedman
+    - mfreed
     - David Blei
   venue: "In Proc. Neural Information Processing Systems
       (NIPS ’12) Lake Tahoe, NV, December 2012."
@@ -339,19 +350,19 @@
 
 - title: "A Formally-Verified Migration Protocol For Mobile, Multi-Homed Hosts"
   people:
-    - Matvey Arye
+    - marye
     - Erik Nordstrom
-    - Robert Kiefer
+    - rkiefer
     - Jennifer Rexford
-    - Michael J. Freedman
+    - mfreed
   venue: "In Proc. IEEE International Conference on Network Protocols (ICNP ’12) Austin, TX, October 2012."
   paper: /assets/papers/2012-icnp-arye.pdf
   year: 2012
 
 - title: "Performance Isolation and Fairness for Multi-Tenant Cloud Storage"
   people:
-    - David Shue
-    - Michael J. Freedman
+    - dshue
+    - mfreed
     - Anees Shaikh
   venue: "In Proc. Symposium on Operating Systems Design and Implementation
       (OSDI ’12). Hollywood, CA, October 2012."
@@ -362,8 +373,8 @@
 - title: "Social Networking with Frientegrity: Privacy and Integrity with an Untrusted Provider"
   people:
     - Ariel J. Feldman
-    - Aaron Blankstein
-    - Michael J. Freedman
+    - ablankst
+    - mfreed
     - Edward W. Felten
   venue: "In Proc. USENIX Security (Sec ’12). Bellevue, WA, August 2012."
   paper: /assets/papers/2012-sec-feldman.pdf
@@ -453,7 +464,7 @@
 - title: "Feeding Frenzy: Selectively Materializing Users’ Event Feeds"
   people: 
     - Adam Silberstein
-    - Jeff Terrace
+    - jterrace
     - Brian Frank Cooper
     - Raghu Ramakrishnan
   venue: "SIGMOD"
@@ -478,7 +489,7 @@
 
 - title: "Prophecy: Using History for High-Throughput Fault Tolerance"
   people: 
-    - Siddhartha Sen
+    - sssix
     - wlloyd
     - mfreed
   venue: "NSDI"
@@ -500,7 +511,7 @@
 
 - title: "Commensal Cuckoo: Secure Group Partitioning for Large-Scale Services"
   people:
-    - Siddhartha Sen
+    - sssix
     - mfreed
   venue: "Proc. 5th Workshop on Large Scale Distributed Systems and Middleware"
   paper: /assets/papers/2011-ladis-sen.pdf
@@ -509,7 +520,7 @@
 - title: "Hiding Amongst the Clouds: A Proposal for Cloud-based Onion Routing"
   people:
     - Nicholas Jones
-    - Matvey Arye
+    - marye
     - Jacopo Cesareo
     - mfreed
   venue: "Proc. USENIX Workshop on Free and Open Communications on the Internet"
@@ -538,7 +549,7 @@
 - title: "Virtual Ring Routing Trends"
   people:
     - Dahlia Malkhi
-    - Siddhartha Sen
+    - sssix
     - Kunal Talwar
     - Renato F. Werneck 
     - Udi Wieder
@@ -549,7 +560,7 @@
 - title: "Rethinking Enterprise Network Control"
   people:
     - Martin Casado
-    - Michael J. Freedman
+    - mfreed
     - Justin Pettit
     - Jianying Luo
     - Natasha Gude
@@ -565,7 +576,7 @@
     - Daniel Horn
     - Ewen Cheslack-Postava
     - Tahir Azim
-    - Michael J. Freedman
+    - mfreed
     - Philip Levis 
   venue: "IEEE Pervasive Computing, Vol 8, Num 3. July-September 2009"
   year: 2009
@@ -574,8 +585,8 @@
 
 - title: "Object Storage on CRAQ: High-throughput chain replication for read-mostly workloads"
   people:
-    - Jeff Terrace
-    - Michael J. Freedman      
+    - jterrace
+    - mfreed
   venue: "In Proc. USENIX Annual Technical Conference (USENIX ’09), San Diego, CA, June 2009"
   year: 2009
   paper: /assets/papers/2009-atc-terrace.pdf
@@ -586,7 +597,7 @@
   people:
     - Haakon Ringberg
     - Benny Applebaum
-    - Michael J. Freedman
+    - mfreed
     - Matthew Caesar
     - Jennifer Rexford
   venue: "Cryptology ePrint Archive: Report 2009/180, April 2009"
@@ -595,11 +606,11 @@
 
 - title: "Bringing P2P to the Web: Security and Privacy in the Firecoral Network"
   people:
-    - Jeff Terrace
+    - jterrace
     - Harold Laidlaw
     - Hao Eric Liu
     - Sean Stern
-    - Michael J. Freedman
+    - mfreed
   venue: "Proc. 8th International Workshop on Peer-to-Peer Systems, (IPTPS ’09) Boston, MA, April 2009"
   year: 2009
   paper: /assets/papers/2009-iptps-terrace.pdf
@@ -607,8 +618,8 @@
 
 - title: "Going Viral: Flash Crowds in an Open CDN"
   people:
-    - Pattrick Wendell
-    - Michael J. Freedman
+    - Patrick Wendell
+    - mfreed
   venue: "Proc. ACM SIGCOMM Internet Measurement Conference"
   year: 2011
   paper: /assets/papers/2011-imc-wendell.pdf
@@ -616,8 +627,8 @@
 
 - title: "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS"
   people:
-    - Wyatt Lloyd
-    - Michael J. Freedman
+    - wlloyd
+    - mfreed
     - Michael Kaminsky
     - David G. Andersen
   venue: "Proc. 23rd ACM Symposium on Operating Systems Principles"
@@ -629,7 +640,7 @@
   people:
     - Christina Aperjis
     - Ramesh Johari
-    - Michael J. Freedman
+    - mfreed
   venue: "IEEE/ACM Transactions on Networking"
   year: 2011
   paper: /assets/papers/2011-tonaperjis.pdf
@@ -638,7 +649,7 @@
   people:
     - Prem Gopalan
     - David Mimno
-    - Michael J. Freedman
+    - mfreed
     - David M. Blei
   venue: "Proc. 6th Annual Machine Learning Symposium, The New York Academy of Sciences"
   year: 2011
@@ -646,7 +657,7 @@
 
 - title: "Toward a Lightweight Model of BGP Safety"
   people:
-    - Matvey Arye
+    - marye
     - Rob Harrison
     - Richard Wang
     - Pamela Zave
@@ -657,28 +668,28 @@
 
 - title: "Bridging the Theory-Practice Gap in Multi-Commodity Flow Routing (Brief Announcement)"
   people:
-    - Siddhartha Sen
+    - sssix
     - Sunghwan Ihm
     - Kay Ousterhout
-    - Michael J. Freedman
+    - mfreed
   venue: "Proc. 25th International Symposium on DIStributed Computing"
   year: 2011
   paper: /assets/papers/2011-disc-sen.pdf
 
 - title: "Towards Efficient Stream Processing at Global Scale"
   people:
-    - Matvey Arye
-    - Siddhartha Sen
+    - marye
+    - sssix
     - Ariel Rabkin
-    - Michael J. Freedman
+    - mfreed
   venue: "Proc. Large-Scale Distributed Systems and Middleware"
   year: 2012
   paper: /assets/papers/2012-ladis-arye.pdf
 
 - title: "Towards Predictable Multi-Tenant Shared Cloud Storage"
   people:
-    - David Shue
-    - Michael J. Freedman
+    - dshue
+    - mfreed
     - Anees Shaikh
   venue: "Proc. Large-Scale Distributed Systems and Middleware"
   year: 2012
@@ -687,7 +698,7 @@
 - title: "On the Price of Equivocation in Byzantine Agreement"
   people:
     - Alexander Jaffe
-    - Siddhartha Sen
+    - sssix
     - Thomas Moscibroda
   venue: "Proc. 31st ACM Symposium on Principles of Distributed Computing"
   year: 2012
@@ -695,10 +706,10 @@
 
 - title: "Unsupervised Conversion of 3D models for Interactive Metaverses"
   people:
-    - Jeff Terrace
+    - jterrace
     - Ewen Cheslack-Postava
     - Philip Levis
-    - Michael J. Freedman
+    - mfreed
   venue: "Proc. IEEE International Conference on Multimedia and Expo"
   year: 2012
   paper: /assets/papers/2012-icme-terrace.pdf
