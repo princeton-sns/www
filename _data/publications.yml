@@ -1,3 +1,13 @@
+- title: "Resource Elasticity in Distributed Deep Learning"
+  people:
+    - andrewor
+    - hzhang
+    - mfreed
+  venue: "Proc. 3rd Conference on Machine Learning and Systems (MLSys ’20) Austin, TX"
+  year: 2020
+  paper: /assets/papers/2020-mlsys-or.pdf
+  presentation: /assets/slides/2020-mlsys-or.pdf
+
 - title: "Riffle: Optimized shuffle service for large-scale data analytics"
   people:
     - Haoyu Zhang
