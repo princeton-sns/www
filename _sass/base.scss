@@ -8,7 +8,7 @@ body {
   display: grid;
   max-width: $desktop;
   margin: 0 auto;
-  grid-template-columns: auto ($tablet - 160px) auto;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "header"
     "nav"
@@ -42,7 +42,7 @@ body > footer {
   padding: 2em 3em;
   ol {
     margin: 0 auto;
-    width: fit-content;
+    width: max-content;
     list-style: none;
     padding: 0;
     li {
@@ -67,7 +67,7 @@ body > footer {
 body > header {
   display: grid;
   grid-area: header;
-  grid-template-columns: $desktop;
+  grid-template-columns: 1fr;
   grid-row-gap: 1em;
   grid-template-areas:
     "masthead"
@@ -83,6 +83,8 @@ body > header {
     font-family: $masthead-font;
     margin: 0 auto;
     font-size: 3.75em;
+    text-align: center;
+    width: 90%;
   }
 
   h2 {
@@ -92,6 +94,8 @@ body > header {
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
+    text-align: center;
+    width: 90%;
   }
 }
 
@@ -103,7 +107,7 @@ body > header {
 nav {
   grid-area: nav;
   display: grid;
-  grid-template-columns: $desktop;
+  grid-template-columns: 1fr;
   grid-template-areas: "items";
   margin: 0;
   background-color: $secondary-light-bg-color;
@@ -135,9 +139,8 @@ nav {
 // Basic main content styling
 body > main, body > article {
   grid-area: content;
-  padding-left: 5em;
-  padding-right: 5em;
-  padding-top: 1em;
+  width: 90%;
+  margin: 0 auto;
 
   h1 {
     font-size: 3em;
@@ -160,7 +163,9 @@ body > main, body > article {
 // affiliation.
 ul.people {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 0.5em;
+  padding-left: 0;
 
   li {
     display: grid;
@@ -170,7 +175,7 @@ ul.people {
     grid-template-columns: 6em auto;
     grid-template-areas: "img name" ". .";
 
-    margin: 1em 0;
+    margin: 0.5em 0;
 
     p {
         display: grid;
@@ -200,9 +205,8 @@ ul.people {
 }
 
 ul.past-members {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 
 // Publications are structured like so:
