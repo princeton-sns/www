@@ -36,12 +36,14 @@ Service-centric, Storage-based — characterizes the broad scope of our research
   * ![]({{person.picture}}) [{{person.first_name}} {{person.last_name}}]({{person.url}})
   {% endfor %}
 
+{% if mscs.size > 0 %}
 ### Masters Students
 
 {:.people}
   {%- for person in mscs %}
   * ![]({{person.picture}}) [{{person.first_name}} {{person.last_name}}]({{person.url}})
   {% endfor %}
+{% endif %}
 
 ### Past Members
 
