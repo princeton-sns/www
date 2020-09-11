@@ -127,7 +127,7 @@
   - first_name: Jennifer
     last_name: Lam
     nick: jl87
-    type: msc
+    type: phd
     active: true
     url: \#
     picture: /assets/img/people/jennifer.jpeg
@@ -136,7 +136,7 @@
     last_name: Eichenhofer
     nick: jeichenhofer
     type: msc
-    active: true
+    active: false
     url: https://jeichenhofer.com/
     picture: /assets/img/people/jeichenhofer.png
 
