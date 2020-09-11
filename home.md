@@ -15,26 +15,32 @@ Service-centric, Storage-based — characterizes the broad scope of our research
 {%- assign mscs = site.data.people | where: "type", "msc" | where: "active", "true" | sort: "last_name" %}
 {%- assign past = site.data.people | where: "active", "false" | sort: "graduated" | reverse %}
 
+{% if leaders.size > 0 %}
 ### Faculty
 
 {:.people}
   {%- for person in leaders %}
   * ![]({{person.picture}}) [{{person.first_name}} {{person.last_name}}]({{person.url}})
   {% endfor %}
+{% endif %}
 
+{% if postdocs.size > 0 %}
 ### Postdocs
 
 {:.people}
   {%- for person in postdocs %}
   * ![]({{person.picture}}) [{{person.first_name}} {{person.last_name}}]({{person.url}})
   {% endfor %}
+{% endif %}
 
+{% if phds.size > 0 %}
 ### PhD Students
 
 {:.people}
   {%- for person in phds %}
   * ![]({{person.picture}}) [{{person.first_name}} {{person.last_name}}]({{person.url}})
   {% endfor %}
+{% endif %}
 
 {% if mscs.size > 0 %}
 ### Masters Students
@@ -45,10 +51,12 @@ Service-centric, Storage-based — characterizes the broad scope of our research
   {% endfor %}
 {% endif %}
 
+{% if past.size > 0 %}
 ### Past Members
 
 {:.past-members}
-{%- for person in past %}
-* [{{person.first_name}} {{person.last_name}}]({{person.url}})
-{%- endfor -%}
+  {%- for person in past %}
+  * [{{person.first_name}} {{person.last_name}}]({{person.url}})
+  {%- endfor -%}
+{% endif %}
 
