@@ -301,3 +301,11 @@
     url: https://yangdsh.github.io/
     picture: /assets/img/people/dongsheng.png
 
+  - first_name: Nanqinqin
+    last_name: Li
+    nick: linanqinqin
+    type: phd
+    active: true
+    url: https://linanqinqin.github.io/
+    picture: /assets/img/people/linanqinqin.jpg
+
