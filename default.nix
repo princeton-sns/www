@@ -3,20 +3,18 @@
 with pkgs;
 let
   gems = bundlerEnv {
-    name = "sns-site";
+    name = "sns-site-gems";
     inherit ruby;
     gemdir = ./.;
   };
 
 in stdenv.mkDerivation {
   name = "sns-site";
-  buildInputs = [ gems ruby ];
+  nativeBuildInputs = [ gems ruby ];
   builder = writeText "builder.sh" ''
     source ${stdenv}/setup
-    cp -r $src/* .
-    jekyll build
     mkdir -p $out
-    cp -r _site/* $out/
+    LC_CTYPE=C.UTF-8 JEKYLL_ENV=production jekyll build --source $src --destination $out --safe
     '';
   src = ./.;
 }
