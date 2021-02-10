@@ -31,7 +31,6 @@ sass:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-category-pages
 
