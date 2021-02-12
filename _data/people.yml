@@ -309,3 +309,11 @@
     url: https://linanqinqin.github.io/
     picture: /assets/img/people/linanqinqin.jpg
 
+  - first_name: Anja
+    last_name: Kalaba
+    nick: akalaba
+    type: phd
+    active: true
+    url: http://www.cs.princeton.edu/~akalaba/
+    picture: /assets/img/people/akalaba.jpg
+
