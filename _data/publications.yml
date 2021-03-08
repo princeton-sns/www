@@ -19,6 +19,16 @@
   paper: /assets/papers/2020-osdi-ngo.pdf
   presentation: /assets/slides/2020-osdi-ngo.pptx
 
+- title: "Performance-Optimal Read-Only Transactions"
+  people:
+    - haonanl
+    - sssix
+    - wlloyd
+  venue: "Proc. 14th Symposium on Operating Systems Design and Implementation (OSDI '20)"
+  year: 2020
+  paper: /assets/papers/2020-osdi-lu.pdf
+  presentation: /assets/slides/2020-osdi-lu.pdf
+
 - title: "Resource Elasticity in Distributed Deep Learning"
   people:
     - andrewor
