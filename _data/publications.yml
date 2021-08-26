@@ -1,3 +1,22 @@
+- title: "Safer at Any Speed: Automatic Context-Aware Safety Enhancement for Rust"
+  people:
+    - npopescu
+    - Ziyang Xu
+    - Sotiris Apostolakis
+    - David I. August
+    - aalevy
+  venue: "To appear: Proc. of the ACM on Programming Languages, Volume 5, Issue OOPSLA (OOPSLA '21), Chicago, Illinois"
+  year: 2021
+
+- title: "Regular Sequential Serializability and Regular Sequential Consistency"
+  people:
+    - jhelt
+    - Matthew Burke
+    - aalevy
+    - wlloyd
+  venue: "To appear: Proc. 28th ACM Symposium on Operating Systems Principles (SOSP '21), Virtual"
+  year: 2021
+
 - title: "Power Clocks: Dynamic Multi-Clock Management for Embedded Systems"
   people:
     - Holly Chiang
