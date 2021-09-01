@@ -1,3 +1,13 @@
+- title: "K2: Reading Quickly from Storage Across Many Datacenters"
+  people:
+    - qngo
+    - haonanl
+    - wlloyd
+  venue: "Proc. 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '21)" 
+  year: 2021
+  paper: /assets/papers/2021-dsn-ngo.pdf
+  presentation: /assets/slides/2021-dsn-ngo.pptx
+
 - title: "Safer at Any Speed: Automatic Context-Aware Safety Enhancement for Rust"
   people:
     - npopescu
