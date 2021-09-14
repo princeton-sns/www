@@ -318,3 +318,11 @@
     url: http://www.cs.princeton.edu/~akalaba/
     picture: /assets/img/people/akalaba.jpg
 
+  - first_name: Shai
+    last_name: Caspin
+    nick: scaspin
+    type: phd
+    active: true
+    url: http://www.cs.princeton.edu/~sc4479/
+    picture: /assets/img/people/scaspin.jpg
+
