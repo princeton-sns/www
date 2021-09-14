@@ -80,7 +80,8 @@
     last_name: Or
     nick: andrewor
     type: phd
-    active: true
+    active: false
+    graduated: 2021
     url: http://www.cs.princeton.edu/~andrewor/
     picture: /assets/img/people/andrewor.jpg
 
@@ -221,8 +222,9 @@
   - first_name: Pi
     last_name: Songkuntham
     nick: pisong
-    type: phd
-    active: true
+    type: msc
+    active: false
+    graduated: 2013
     url: https://www.cs.princeton.edu/~pisong/
     picture: /assets/img/people/placeholder.png
 
