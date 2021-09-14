@@ -154,8 +154,9 @@
     last_name: Ngo
     nick: qngo
     type: phd
-    active: true
-    url: http://www.cs.princeton.edu/~qngo/
+    active: false
+    graduated: 2021
+    url: https://khiemn.com/
     picture: /assets/img/people/qngo.jpg
 
   - first_name: Logan
