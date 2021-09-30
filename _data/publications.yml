@@ -1,6 +1,6 @@
 - title: "Don’t Be a Blockhead: Zoned Namespaces Make Work on Conventional SSDs Obsolete"
   people:
-    - theanoli
+    - theanos
     - Daniel S. Berger
     - Ethan Katz-Bassett
     - wlloyd
@@ -11,7 +11,7 @@
 
 - title: "Facebook’s Tectonic Filesystem: Efficiency from Exascale"
   people:
-    - theanoli
+    - theanos
     - Yunqiao Zhang 
     - Atul Sikaria
     - Pavel Zakharov
