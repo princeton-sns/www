@@ -1,3 +1,37 @@
+- title: "Don’t Be a Blockhead: Zoned Namespaces Make Work on Conventional SSDs Obsolete"
+  people:
+    - theanoli
+    - Daniel S. Berger
+    - Ethan Katz-Bassett
+    - wlloyd
+  venue: "Proc. 18th Workshop on Hot Topics in Operating Systems (HotOS '21)" 
+  year: 2021
+  paper: https://www.cs.princeton.edu/~theanos/hotos21-stavrinos.pdf
+  presentation: https://www.youtube.com/watch?v=NVzP-3vaWtQ
+
+- title: "Facebook’s Tectonic Filesystem: Efficiency from Exascale"
+  people:
+    - theanoli
+    - Yunqiao Zhang 
+    - Atul Sikaria
+    - Pavel Zakharov
+    - Abhinav Sharma
+    - Shiva Shankar P
+    - Mike Shuey
+    - Richard Wareing
+    - Monika Gangapuram
+    - Guanglei Cao
+    - Christian Preseau
+    - Pratap Singh
+    - Kestutis Patiejunas
+    - JR Tipton
+    - Ethan Katz-Bassett
+    - wlloyd
+  venue: "Proc. 19th USENIX Conference on File and Storage Technologies (FAST '21)" 
+  year: 2021
+  paper: https://www.cs.princeton.edu/~theanos/fast21-pan.pdf
+  presentation: https://www.youtube.com/watch?v=aN2KysHRsZA&t
+
 - title: "K2: Reading Quickly from Storage Across Many Datacenters"
   people:
     - qngo
