@@ -1,3 +1,16 @@
+- title: "Tiered Trust for Useful Embedded Systems Security"
+  people:
+    - Hudson Ayers
+    - Prabal Dutta
+    - Philip Levis
+    - aalevy
+    - Pat Pannuto
+    - Johnathan Van Why
+    - Jean-Luc Watson
+  venue: "Proc. 15th European Workshop on Systems Security (EuroSec '22)"
+  year: 2022
+  paper: https://www.amitlevy.com/papers/2022-eurosec-ayers.pdf
+
 - title: "Don’t Be a Blockhead: Zoned Namespaces Make Work on Conventional SSDs Obsolete"
   people:
     - theanos
