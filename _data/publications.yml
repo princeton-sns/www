@@ -1,3 +1,13 @@
+- title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
+  people:
+    - linanqinqin
+    - akalaba
+    - mfreed
+    - wlloyd
+    - aalevy
+  venue: "Proc. USENIX Annual Technical Conference (USENIX ATC '22)"
+  year: 2022
+  paper: https://www.amitlevy.com/papers/2022-atc-specreds.pdf
 - title: "Tiered Trust for Useful Embedded Systems Security"
   people:
     - Hudson Ayers
