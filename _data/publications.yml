@@ -1,3 +1,11 @@
+- title: "Doing More with Less: Orchestrating Serverless Applications without an Orchestrator"
+  people:
+    - hl7
+    - Shadi Noghabi
+    - Sebastian Burckhardt
+    - aalevy
+  venue: "Proc. 20th Symposium on Networked Systems Design and Implementation (NSDI '22), Boston, MA"
+  year: 2023
 - title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
   people:
     - linanqinqin
