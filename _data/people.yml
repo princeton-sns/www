@@ -105,8 +105,10 @@
     last_name: Lu
     nick: haonanl
     type: postdoc
-    active: true
-    url: http://www.cs.princeton.edu/~haonanl/
+    active: false
+    graduated: 2022
+    now: Assistant Professor at University at Buffalo
+    url: https://sites.google.com/view/haonanlu/home
     picture: /assets/img/people/placeholder.png
 
   - first_name: David H.
