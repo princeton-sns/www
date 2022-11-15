@@ -4,8 +4,18 @@
     - Shadi Noghabi
     - Sebastian Burckhardt
     - aalevy
-  venue: "Proc. 20th Symposium on Networked Systems Design and Implementation (NSDI '22), Boston, MA"
+  venue: "Proc. 20th Symposium on Networked Systems Design and Implementation (NSDI '23), Boston, MA"
   year: 2023
+  paper: https://www.amitlevy.com/papers/2023-nsdi-unum.pdf
+- title: "Computation-Centric Networking"
+  people:
+    - Yuhan Deng
+    - Angela Montemayor
+    - aalevy
+    - Keith Winstein
+  venue: "Proc. 21th ACM Workshopt on Hot Topics in Networking (HotNets '22), Austin, Texas"
+  year: 2022
+  paper: https://www.amitlevy.com/papers/2022-hotnets-fixpoint.pdf
 - title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
   people:
     - linanqinqin
