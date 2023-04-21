@@ -1,3 +1,25 @@
+- title: "C5: Cloned Concurrency Control that Always Keeps Up"
+  people:
+    - jhelt
+    - Abhinav Sharma
+    - Daniel J. Abadi
+    - wlloyd
+    - Jose M. Faleiro
+  venue: "Proc. 49th International Conference on Very Large Data Bases (VLDB '23), Vancouver, Canada"
+  year: 2023
+  paper: /assets/papers/2023-vldb-helt.pdf
+
+- title: "Morty: Scaling Concurrency Control with Re-Execution"
+  people:
+    - Matthew Burke
+    - Florian Suri-Payer
+    - jhelt
+    - Lorenzo Alvisi
+    - Natacha Crooks
+  venue: "Proc. 18th European Conference on Computer Systems (EuroSys '23), Rome, Italy"
+  year: 2023
+  paper: /assets/papers/2023-eurosys-burke.pdf
+
 - title: "Doing More with Less: Orchestrating Serverless Applications without an Orchestrator"
   people:
     - hl7
@@ -100,8 +122,10 @@
     - Matthew Burke
     - aalevy
     - wlloyd
-  venue: "To appear: Proc. 28th ACM Symposium on Operating Systems Principles (SOSP '21), Virtual"
+  venue: "Proc. 28th ACM Symposium on Operating Systems Principles (SOSP '21), Virtual Event"
   year: 2021
+  paper: /assets/papers/2021-sosp-helt.pdf
+  presentation: /assets/slides/2021-sosp-helt.pptx
 
 - title: "Power Clocks: Dynamic Multi-Clock Management for Embedded Systems"
   people:
