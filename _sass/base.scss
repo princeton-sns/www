@@ -192,6 +192,8 @@ ul.people {
         grid-area: img;
         vertical-align: middle;
         height: 5em;
+        width: 5em;
+        object-fit: cover;
         border-radius: 100%;
         margin-right: 1em;
     }

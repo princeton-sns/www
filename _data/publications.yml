@@ -1,3 +1,11 @@
+- title: "Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense"
+  people:
+    - rtorok
+    - aalevy
+  venue: "Proc. 44th IEEE Symposium on Security and Privacy (S&P '23), San Francisco, CA"
+  year: 2023
+  paper: /assets/papers/2023-sp-torok.pdf
+
 - title: "C5: Cloned Concurrency Control that Always Keeps Up"
   people:
     - jhelt

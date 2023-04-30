@@ -99,7 +99,7 @@
     type: phd
     active: true
     url: http://www.samginzburg.com
-    picture: /assets/img/people/placeholder.png
+    picture: /assets/img/people/ginzburg.png
 
   - first_name: Haonan
     last_name: Lu
@@ -115,7 +115,8 @@
     last_name: Liu
     nick: hl7
     type: phd
-    active: true
+    active: false
+    graduated: 2023
     url: http://www.cs.princeton.edu/~hl7/
     picture: /assets/img/people/hl7.jpg
 
@@ -338,3 +339,10 @@
     url: http://www.cs.princeton.edu/~sc4479/
     picture: /assets/img/people/scaspin.jpg
 
+  - first_name: Ryan
+    last_name: Torok
+    nick: rtorok
+    type: msc
+    active: true
+    url: https://www.cs.princeton.edu/~rt3811/
+    picture: /assets/img/people/rtorok.jpg
