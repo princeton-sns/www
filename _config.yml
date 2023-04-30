@@ -30,9 +30,7 @@ sass:
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-paginate
-  - jekyll-category-pages
+plugins: []
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
