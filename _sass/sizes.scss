@@ -2,6 +2,6 @@ $text-base-size: 18px;
 
 $phone-landscape: 646px;
 $tablet: 767px;
-$desktop: 960px;
+$desktop: calc(0.9 * 960px);
 
 $spacer: 1em;

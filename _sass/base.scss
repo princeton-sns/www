@@ -6,14 +6,14 @@ body {
   font-family: $body-font;
   line-height: 1.5;
   display: grid;
-  max-width: $desktop;
+  width: 100%;
   margin: 0 auto;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr minmax(0, $desktop) 1fr;
   grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "footer";
+    "header header header"
+    "nav nav nav"
+    "n content b"
+    "footer footer footer";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,8 +107,8 @@ body > header {
 nav {
   grid-area: nav;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "items";
+  grid-template-columns: 1fr minmax(0, $desktop) 1fr;
+  grid-template-areas: "a items b";
   margin: 0;
   background-color: $secondary-light-bg-color;
   ol {
@@ -139,7 +139,7 @@ nav {
 // Basic main content styling
 body > main, body > article {
   grid-area: content;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 
   h1 {
