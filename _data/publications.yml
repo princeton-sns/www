@@ -48,8 +48,7 @@
   year: 2022
   paper: https://www.amitlevy.com/papers/2022-hotnets-fixpoint.pdf
   
-  
-  - title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
+- title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
   people:
     - linanqinqin
     - akalaba
