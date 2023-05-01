@@ -346,7 +346,7 @@
     active: true
     url: https://www.cs.princeton.edu/~rt3811/
     picture: /assets/img/people/rtorok.jpg
-  
+
   - first_name: Christopher
     last_name: Branner-Augmon
     nick: cbaugmon
@@ -362,3 +362,11 @@
     active: true
     url: https://leochanj105.github.io/
     picture: /assets/img/people/leoweirdface.jfif
+
+  - first_name: Leon
+    last_name: Schuermann
+    nick: lschuermann
+    type: phd
+    active: true
+    url: https://leon.schuermann.io/
+    picture: /assets/img/people/lschuermann.jpg
