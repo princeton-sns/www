@@ -354,3 +354,11 @@
     active: true
     url: \#
     picture: /assets/img/people/cbaugmon.jpeg
+
+  - first_name: Leo
+    last_name: Chen
+    nick: leochen
+    type: phd
+    active: true
+    url: https://leochanj105.github.io/
+    picture: /assets/img/people/leoweirdface.jfif
