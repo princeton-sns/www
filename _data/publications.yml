@@ -1,3 +1,26 @@
+- title: "Efficient Compactions between Storage Tiers with PrismDB"
+  people:
+    - araina
+    - jiananl
+    - Asaf Cidon
+    - mfreed
+  venue: "Proc. 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, (ASPLOS ’23), Vancouver, Canada"
+  year: 2023
+  paper: /assets/papers/2023-asplos-raina.pdf
+
+- title: "RubbleDB: CPU-Efficient Replication with NVMe-oF"
+  people:
+    - Haoyu Li
+    - Sheng Jiang
+    - Chen Chen
+    - araina
+    - Xingyu Zhu
+    - Changxu Luo
+    - Asaf Cidon
+  venue: "To appear: Proc. USENIX Annual Technical Conference (USENIX ATC '23), Boston, MA"
+  year: 2023
+ # paper: TBD
+
 - title: "VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration"
   people:
     - ginzburg
