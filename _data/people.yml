@@ -266,7 +266,7 @@
     active: false
     graduated: 2014
     now: Voleon Capital Management
-    url: 
+    url:
     picture: /assets/img/people/placeholder.png
 
   - first_name: Rob
@@ -276,7 +276,7 @@
     active: false
     graduated: 2016
     now: Timescale
-    url: 
+    url:
     picture: /assets/img/people/placeholder.png
 
   - first_name: Xiaozhou
@@ -298,7 +298,7 @@
     now: Timescale
     url: https://www.linkedin.com/in/matvey-arye-70a270b5
     picture: /assets/img/people/placeholder.png
-    
+
   - first_name: Dongsheng
     last_name: Yang
     nick: dy5
@@ -370,3 +370,11 @@
     active: true
     url: https://leon.schuermann.io/
     picture: /assets/img/people/lschuermann.jpg
+
+  - first_name: Gongqi
+    last_name: Huang
+    nick: ghuang
+    type: phd
+    active: true
+    url: https://www.cs.princeton.edu/~gh0477/
+    picture: /assets/img/people/ghuang.jpg
