@@ -346,3 +346,11 @@
     active: true
     url: https://www.cs.princeton.edu/~rt3811/
     picture: /assets/img/people/rtorok.jpg
+  
+  - first_name: Christopher
+    last_name: Branner-Augmon
+    nick: cbaugmon
+    type: phd
+    active: true
+    url: \#
+    picture: /assets/img/people/cbaugmon.jpeg
