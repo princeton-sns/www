@@ -1,3 +1,35 @@
+- title: "VectorVisor: A Binary Translation Scheme for Throughput-Oriented GPU Acceleration"
+  people:
+    - ginzburg
+    - Mohammad Shahrad
+    - mfreed
+  venue: "To appear: Proc. USENIX Annual Technical Conference (USENIX ATC '23)"
+  year: 2023
+ # paper: /assets/papers/2023-atc-vv.pdf
+
+- title: "Palette Load Balancing: Locality Hints for Serverless Functions"
+  people:
+    - Mania Abdi
+    - ginzburg
+    - Charles Lin
+    - José M. Faleiro
+    - Íñigo Goiri
+    - Gohar Chaudhry
+    - Ricardo Bianchini
+    - Daniel S. Berger
+    - Rodrigo Fonseca
+  venue: "Proc. 18th European Conference on Computer Systems (EuroSys '23), Rome, Italy"
+  year: 2023
+  paper: /assets/papers/2023-eurosys-palette.pdf
+
+- title: "Serverless Isn't Server-Less: Measuring and Exploiting Resource Variability on Cloud FaaS Platforms"
+  people:
+    - ginzburg
+    - mfreed
+  venue: "Proc. 6th International Workshop on Serverless Computing (WoSC '20), Delft, Netherlands"
+  year: 2020
+  paper: /assets/papers/2020-wosc-ginzburg.pdf
+
 - title: "Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense"
   people:
     - rtorok
