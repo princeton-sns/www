@@ -1,3 +1,13 @@
+- title: "Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall"
+  people:
+    - haonanl
+    - Shuai Mu
+    - sssix
+    - wlloyd
+  venue: "To appear: Proc. USENIX Symposium on Operating Systems Design and Implementation (OSDI '23), Boston, MA"
+  year: 2023
+ # paper: TBD
+
 - title: "Efficient Compactions between Storage Tiers with PrismDB"
   people:
     - araina
