@@ -89,7 +89,8 @@
     last_name: Hodsdon
     nick: chodsdon
     type: phd
-    active: true
+    active: false
+    graduated: 2023
     url: http://www.cs.princeton.edu/~chodsdon/
     picture: /assets/img/people/chodsdon.jpg
 
@@ -176,7 +177,8 @@
     last_name: Stavrinos
     nick: theanos
     type: phd
-    active: true
+    active: false
+    graduated: 2023
     url: http://www.cs.princeton.edu/~theanos/
     picture: /assets/img/people/theanos.jpg
 
