@@ -89,8 +89,9 @@
     last_name: Hodsdon
     nick: chodsdon
     type: phd
-    active: true
-    url: http://www.cs.princeton.edu/~chodsdon/
+    active: false
+    graduated: 2023
+    url: https://christopherhodsdon.com/
     picture: /assets/img/people/chodsdon.jpg
 
   - first_name: Sam
@@ -176,7 +177,8 @@
     last_name: Stavrinos
     nick: theanos
     type: phd
-    active: true
+    active: false
+    graduated: 2023
     url: http://www.cs.princeton.edu/~theanos/
     picture: /assets/img/people/theanos.jpg
 
@@ -343,8 +345,9 @@
     last_name: Torok
     nick: rtorok
     type: msc
-    active: true
-    url: https://www.cs.princeton.edu/~rt3811/
+    active: false
+    graduated: 2023
+    url: http://ryantorok.net
     picture: /assets/img/people/rtorok.jpg
 
   - first_name: Christopher
