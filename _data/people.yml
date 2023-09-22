@@ -345,8 +345,9 @@
     last_name: Torok
     nick: rtorok
     type: msc
-    active: true
-    url: https://www.cs.princeton.edu/~rt3811/
+    active: false
+    graduated: 2023
+    url: http://ryantorok.net
     picture: /assets/img/people/rtorok.jpg
 
   - first_name: Christopher
