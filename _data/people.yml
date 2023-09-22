@@ -194,7 +194,8 @@
     last_name: Song
     nick: zhenyus
     type: phd
-    active: true
+    active: false
+    graduated: 2023
     url: http://www.cs.princeton.edu/~zhenyus/
     picture: /assets/img/people/zhenyus.jpg
 
