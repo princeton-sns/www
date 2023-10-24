@@ -1,10 +1,19 @@
+- title: "Encapsulated Functions: Fortifying Rust's FFI in Embedded Systems"
+  people:
+    - lschuermann
+    - Arun Thomas
+    - aalevy
+  venue: "Kernel Isolation, Safety and Verification (KISV '23), Koblenz, Germany"
+  year: 2023
+  paper: /assets/papers/2023-encapfn-schuermann.pdf
+
 - title: "Strictly Serializable Timestamp Ordering by Avoiding the Timestamp-Inversion Pitfall"
   people:
     - haonanl
     - Shuai Mu
     - sssix
     - wlloyd
-  venue: "To appear: Proc. USENIX Symposium on Operating Systems Design and Implementation (OSDI '23), Boston, MA"
+  venue: "Proc. USENIX Symposium on Operating Systems Design and Implementation (OSDI '23), Boston, MA"
   year: 2023
  # paper: TBD
 
