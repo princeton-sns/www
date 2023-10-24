@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-{%- assign publications = site.data.publications | sort: "year" | reverse -%}
+{%- assign publications = site.data.publications | reverse | sort: "year" | reverse -%}
 {%- assign year = publications | map: "year" | first -%}
 
 ## {{year}}
