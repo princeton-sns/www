@@ -1,3 +1,13 @@
+- title: "TurboDB: Conquering Skewed Workloads by Integrating a Single-Machine Database Into a Distributed Database"
+  people:
+    - jl87
+	- jhelt
+	- haonanl
+	- wlloyd
+  venue: "Proc. 21st Symposium on Networked Systems Design and Implementation (NSDI '24), Santa Clara, CA"
+  year: 2024
+# paper: TBD
+
 - title: "Encapsulated Functions: Fortifying Rust's FFI in Embedded Systems"
   people:
     - lschuermann
