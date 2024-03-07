@@ -125,9 +125,11 @@
     last_name: Helt
     nick: jhelt
     type: phd
-    active: true
-    url: http://www.jeffreyhelt.com/
+    active: false
+    graduated: 2024
+    url: https://www.jeffreyhelt.com/
     picture: /assets/img/people/jhelt.jpg
+    now: Databricks
 
   - first_name: Jennifer
     last_name: Lam
