@@ -133,9 +133,10 @@
     last_name: Lam
     nick: jl87
     type: phd
-    active: true
+    active: false
     url: http://www.cs.princeton.edu/~jl87/
     picture: /assets/img/people/jennifer.jpeg
+    now: Databricks
 
   - first_name: Joseph
     last_name: Eichenhofer
