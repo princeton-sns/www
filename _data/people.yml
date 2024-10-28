@@ -46,6 +46,14 @@
     url: http://amitlevy.com
     picture: /assets/img/people/aalevy.jpg
 
+  - first_name: Mae
+    last_name: Milano
+    nick: mpmilano
+    type: leader
+    active: true
+    url: https://languagesforsyste.ms
+    picture: /assets/img/people/mpmilano.jpg
+
   - first_name: Aaron
     last_name: Blankenstein
     nick: ablankst
@@ -384,3 +392,29 @@
     active: true
     url: https://www.cs.princeton.edu/~gh0477/
     picture: /assets/img/people/ghuang.jpg
+
+  - first_name: Amelia
+    last_name: Dobis
+    nick: amelia.dobis
+    type: phd
+    active: true
+    url: https://dobios.github.io/
+    picture: /assets/img/people/amelia.dobis.jpg
+
+  - first_name: Mohanna
+    last_name: Shahrad
+    nick: mohanna
+    type: phd
+    active: true
+    url: https://mohannashahrad.github.io/
+    picture: /assets/img/people/mohanna.jpg
+
+  - first_name: Rupashree
+    last_name: Rangaiyengar
+    nick: rupa
+    type: phd
+    active: true
+    url: https://scholar.google.com/citations?user=TUrxP-YAAAAJ&hl=en
+    picture: /assets/img/people/rupa.jpg
+
+
