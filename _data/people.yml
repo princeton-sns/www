@@ -399,7 +399,7 @@
     type: phd
     active: true
     url: https://dobios.github.io/
-    picture: https://dobios.github.io/res/ppic3.jpg
+    picture: /assets/img/people/amelia.dobis.jpg
 
   - first_name: Mohanna
     last_name: Shahrad
@@ -407,7 +407,7 @@
     type: phd
     active: true
     url: https://mohannashahrad.github.io/
-    picture: https://mohannashahrad.github.io/images/profile.jpg
+    picture: /assets/img/people/mohanna.jpg
 
   - first_name: Rupashree
     last_name: Rangaiyengar
@@ -415,6 +415,6 @@
     type: phd
     active: true
     url: https://scholar.google.com/citations?user=TUrxP-YAAAAJ&hl=en
-    picture: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TUrxP-YAAAAJ&citpid=3
+    picture: /assets/img/people/rupa.jpg
 
 
