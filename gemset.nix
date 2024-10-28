@@ -221,14 +221,14 @@
     version = "0.10.1";
   };
   rexml = {
-    groups = ["default" "jekyll_plugins"];
+    groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "08ximcyfjy94pm1rhcx04ny1vx2sk0x4y185gzn86yfsbzwkng53";
+      sha256 = "1j9p66pmfgxnzp76ksssyfyqqrg7281dyi3xyknl3wwraaw7a66p";
       type = "gem";
     };
-    version = "3.2.5";
+    version = "3.3.9";
   };
   rouge = {
     groups = ["default" "jekyll_plugins"];
