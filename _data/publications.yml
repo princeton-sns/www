@@ -1,3 +1,24 @@
+- title: "Building Bridges: Safe Interactions with Foreign Languages through Omniglot."
+  people:
+    - lschuermann
+    - Jack Toubes
+    - Tyler Potyondy
+    - Pat Pannuto
+    - mpmilano
+    - aalevy
+  venue: "Proc. USENIX Symposium on Operating Systems Design and Implementation (OSDI '25), Boston, MA"
+  year: 2025
+  paper: /assets/papers/2025-omniglot-schuermann.pdf
+
+- title: "Bridge: A Leak-Free Hardware-Software Architecture for Parallel Embedded Systems"
+  people:
+    - ghuang
+    - lschuermann
+    - aalevy
+  venue: "Kernel Isolation, Safety and Verification (KISV '24), Austin, Texas"
+  year: 2024
+  paper: /assets/papers/2024-bridge-huang.pdf
+
 - title: "TurboDB: Conquering Skewed Workloads by Integrating a Single-Machine Database Into a Distributed Database"
   people:
     - jl87
@@ -121,7 +142,7 @@
   venue: "Proc. 20th Symposium on Networked Systems Design and Implementation (NSDI '23), Boston, MA"
   year: 2023
   paper: https://www.amitlevy.com/papers/2023-nsdi-unum.pdf
-  
+
 - title: "Computation-Centric Networking"
   people:
     - Yuhan Deng
@@ -131,7 +152,7 @@
   venue: "Proc. 21th ACM Workshopt on Hot Topics in Networking (HotNets '22), Austin, Texas"
   year: 2022
   paper: https://www.amitlevy.com/papers/2022-hotnets-fixpoint.pdf
-  
+
 - title: "Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage"
   people:
     - linanqinqin
@@ -142,7 +163,7 @@
   venue: "Proc. USENIX Annual Technical Conference (USENIX ATC '22)"
   year: 2022
   paper: https://www.amitlevy.com/papers/2022-atc-specreds.pdf
-  
+
 - title: "VirtualFlow: Decoupling Deep Learning Models from the Underlying Hardware"
   people:
   people:
@@ -152,7 +173,7 @@
   venue: "Proc. Fifth Conference on Machine Learning and Systems (MLSys '22)"
   year: 2022
   paper: https://www.cs.princeton.edu/~mfreed/docs/virtualflow-mlsys22.pdf
-  
+
 - title: "Tiered Trust for Useful Embedded Systems Security"
   people:
     - Hudson Ayers
@@ -172,7 +193,7 @@
     - Daniel S. Berger
     - Ethan Katz-Bassett
     - wlloyd
-  venue: "Proc. 18th Workshop on Hot Topics in Operating Systems (HotOS '21)" 
+  venue: "Proc. 18th Workshop on Hot Topics in Operating Systems (HotOS '21)"
   year: 2021
   paper: https://www.cs.princeton.edu/~theanos/hotos21-stavrinos.pdf
   presentation: https://www.youtube.com/watch?v=NVzP-3vaWtQ
@@ -181,7 +202,7 @@
   people:
     - Satadru Pan
     - theanos
-    - Yunqiao Zhang 
+    - Yunqiao Zhang
     - Atul Sikaria
     - Pavel Zakharov
     - Abhinav Sharma
@@ -196,7 +217,7 @@
     - JR Tipton
     - Ethan Katz-Bassett
     - wlloyd
-  venue: "Proc. 19th USENIX Conference on File and Storage Technologies (FAST '21)" 
+  venue: "Proc. 19th USENIX Conference on File and Storage Technologies (FAST '21)"
   year: 2021
   paper: https://www.cs.princeton.edu/~theanos/fast21-pan.pdf
   presentation: https://www.youtube.com/watch?v=aN2KysHRsZA&t
@@ -206,7 +227,7 @@
     - qngo
     - haonanl
     - wlloyd
-  venue: "Proc. 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '21)" 
+  venue: "Proc. 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '21)"
   year: 2021
   paper: /assets/papers/2021-dsn-ngo.pdf
   presentation: /assets/slides/2021-dsn-ngo.pptx
@@ -246,7 +267,7 @@
 - title: "Tolerating Slowdowns in Replicated State Machines using Copilots"
   people:
     - qngo
-    - sssix 
+    - sssix
     - wlloyd
   venue: "Proc. 14th Symposium on Operating Systems Design and Implementation (OSDI '20)"
   year: 2020
@@ -771,7 +792,7 @@
   year: 2008
 
 - title: "Feeding Frenzy: Selectively Materializing Users’ Event Feeds"
-  people: 
+  people:
     - Adam Silberstein
     - jterrace
     - Brian Frank Cooper
@@ -781,7 +802,7 @@
   year: 2010
 
 - title: "Experiences with Tracing Causality in Networked Services"
-  people: 
+  people:
     - Rodrigo Fonseca
     - mfreed
     - George Porter
@@ -790,14 +811,14 @@
   year: 2010
 
 - title: "Experiences with CoralCDN: A Five-Year Operational View"
-  people: 
+  people:
     - mfreed
   venue: "NSDI"
   paper: /assets/papers/2010-nsdi-freedman.pdf
   year: 2010
 
 - title: "Prophecy: Using History for High-Throughput Fault Tolerance"
-  people: 
+  people:
     - sssix
     - wlloyd
     - mfreed
@@ -860,7 +881,7 @@
     - Dahlia Malkhi
     - sssix
     - Kunal Talwar
-    - Renato F. Werneck 
+    - Renato F. Werneck
     - Udi Wieder
   venue: "Proc. 23rd International Symposium on Distributed Computing (DISC '09), Elche, Spain"
   year: 2009
@@ -886,7 +907,7 @@
     - Ewen Cheslack-Postava
     - Tahir Azim
     - mfreed
-    - Philip Levis 
+    - Philip Levis
   venue: "IEEE Pervasive Computing, Vol 8, Num 3. July-September 2009"
   year: 2009
   paper: /assets/papers/2009-pervasive-horn.pdf
@@ -1023,7 +1044,3 @@
   year: 2012
   paper: /assets/papers/2012-icme-terrace.pdf
   presentation: /assets/slides/2012-icme-terrace.pdf
-
-
-
-
