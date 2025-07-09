@@ -1,6 +1,11 @@
-{ pkgs ? import <nixpkgs> {}, devel ? false }:
+{ devel ? false }:
 
-with pkgs;
+let pkgs = import (builtins.fetchTarball {
+  # Descriptive name to make the store path easier to identify
+  name = "nixpkgs-25.05";
+  url = "https://github.com/NixOS/nixpkgs/archive/refs/tags/25.05.tar.gz";
+}) {};
+in with pkgs;
 let
   gitignoreSource = (
     import (
