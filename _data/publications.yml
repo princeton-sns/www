@@ -1,3 +1,21 @@
+- title: "Encoding Purely Functional Languages in an RTL-based Compiler"
+  people:
+    - amelia.dobis
+    - ghuang
+    - mpmilano
+  venue: "Languages, Tools, and Techniques for Accelerator Design (LATTE '26), Pittsburgh, PA"
+  year: 2026
+  paper: /assets/papers/2026-latte-nextgen-clash.pdf
+
+- title: "Incremental Conversion of SVA Properties to Synthesizable Hardware"
+  people:
+    - amelia.dobis
+    - Fabian Schuiki
+    - mpmilano
+  venue: "Languages, Tools, and Techniques for Accelerator Design (LATTE '25), Rotterdam, Netherlands"
+  year: 2025
+  paper: /assets/papers/2025-latte-ltlconv.pdf
+
 - title: "Building Bridges: Safe Interactions with Foreign Languages through Omniglot."
   people:
     - lschuermann
